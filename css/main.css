@@ -25,6 +25,20 @@
   font-size: 25px;
 }
 
+.bg-principal{
+  background-image: url('../assets/images/portada3.jpg');
+background-position: bottom center;
+background-size: cover;
+height: 75vh;
+}
+
+.opacity{
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: inherit;
+}
+
 .line::after , .line::before {
   content: '';
   width: 10%;
