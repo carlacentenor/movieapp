@@ -16,12 +16,16 @@ $(document).ready(function() {
       $('.release-year').text(response.Year);
     });
   }
-
+  
   // Llamando a la función
-  appiCall('krrish');
+
+  appiCall('Chennai Express');
+  
+ 
 
   // setTimeout(function() {
   //   window.location.href = 'views/primera.html';
   // }, 3000);
+
 
 });
