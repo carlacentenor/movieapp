@@ -121,9 +121,29 @@ Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
 
 ## Sketch Version 2: 
 
-### Version Mobile:
+### Versión Mobile:
 
+![Con titulo](assets/docs/vista1-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista2-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista3-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista4-mobile.jpg "titulo")
+![Con titulo](assets/docs/menu-hamb-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista5-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista6-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista7-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista8-footer.jpg "titulo")
 
+### Versión Desktop:
+
+![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
+![Con titulo](assets/docs/modals_desktop.jpg "titulo")
+![Con titulo](assets/docs/vista2-desktop.jpg "titulo")
+![Con titulo](assets/docs/vista2-desktop-hamb.jpg "titulo")
+![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
+![Con titulo](assets/docs/vista3-desktop.jpg "titulo")
+![Con titulo](assets/docs/vista4-desktop.jpg "titulo")
+![Con titulo](assets/docs/vista5-desktop.jpg "titulo")
+![Con titulo](assets/docs/vista8-footer.jpg "titulo")
 
 
 Realizado por Squad Powerpuff -Girls.
