@@ -8,13 +8,14 @@ $(document).ready(function() {
       $('.actors-movie').text(response.Actors);
       $('.genre-movie').text(response.Genre);
       console.log(response);
+      $('.release-year').text(response.Year);
     });
   }
 
   // Llamando a la función
-  appiCall('Chennai Express');
+  appiCall('krrish');
 
-  setTimeout(function() {
-    window.location.href = 'views/primera.html';
-  }, 3000);
+  // setTimeout(function() {
+  //   window.location.href = 'views/primera.html';
+  // }, 3000);
 });
