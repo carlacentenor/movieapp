@@ -1,0 +1,31 @@
+.splash {
+    background-color: green;
+}
+
+.imgDesktop{
+    background-image: url('../assets/docs/idea3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 100vh;
+}
+
+.hola{
+    background: rgba(15, 15, 15, 0.4); 
+    height: 100vh;
+}
+
+.IniciaSesion {
+    width: 335px;
+    display: flex;
+}
+
+#dropdown1 {
+    margin-top: 4em;
+}
+
+.generos img {
+    width: 20%;
+    height: 30%;
+}
