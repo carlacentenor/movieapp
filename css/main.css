@@ -1,71 +1,79 @@
 
 *{
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 
 .flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  text-align: center;
 }
 
 .border {
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .box-buttons{
-    margin: 1em;
+  margin: 1em;
 }
 
 .phrase{
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .line::after , .line::before {
-    content: '';
-    width: 10%;
-    height: 1px;
-    background-color: gray;
-    display: inline-block;
+  content: '';
+  width: 10%;
+  height: 1px;
+  background-color: gray;
+  display: inline-block;
 }
 
 .pd1{
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 
 .splash {
-    background-color: green;
+  background-color: green;
 }
 
 .imgDesktop{
-    background-image: url('../assets/docs/idea3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: white;
-    height: 100vh;
+  background-image: url('../assets/docs/idea3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  height: 100vh;
 }
 
-.hola{
-    background: rgba(15, 15, 15, 0.4); 
-    height: 100vh;
+.hola {
+  background: rgba(15, 15, 15, 0.4); 
+  height: 100vh;
 }
 
 .IniciaSesion {
-    width: 335px;
-    display: flex;
+  width: 335px;
+  display: flex;
 }
 
 #dropdown1 {
-    margin-top: 4em;
+  margin-top: 4em;
 }
 
 .generos img {
     width: 20%;
     height: 30%;
+}
+
+.logo-desktop {
+  width: 120px;
+}
+
+.logo-mobile {
+  width: 100px;
 }
