@@ -158,4 +158,41 @@ $(document).ready(function() {
       }
     });
   });
+
+
+  // Login por facebook
+
+  
+  var providerFacebook = new firebase.auth.FacebookAuthProvider();
+  btnFacebook.on('click', function() {
+    
+  
+    firebase.auth().signInWithPopup(providerFacebook).then(function(result) {
+      var token = result.credential.accessToken;
+
+      var user = result.user;
+console.log('entro');
+      firebase.database().ref('users/' + user.uid).set({
+        name: user.displayName,
+        email: user.email,
+        uid: user.uid,
+        profilePhoto: user.photoURL,
+        
+      }).then(
+        user => {
+          $(location).attr('href', 'home.html');
+        });
+    }).catch(function(error) {
+    // Handle Errors here.
+      var errorCode = error.code;
+      var errorMessage = error.message;
+      // The email of the user's account used.
+      var email = error.email;
+      // The firebase.auth.AuthCredential type that was used.
+      var credential = error.credential;
+    // ...
+    });
+  });
+
+
 });
