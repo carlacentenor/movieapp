@@ -110,6 +110,33 @@ $(document).ready(function() {
     }
   });
 
+  // Autentificación por email y password
+  
+  btnEnter.click(function(event) {
+    event.preventDefault();
+
+    var email = emailLogin.val();
+    var password = passwordLogin.val();
+
+    firebase.auth().signInWithEmailAndPassword(email, password)
+      .catch(function(error) {
+      // Handle Errors here.
+        
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        if (errorCode || errorMessage) {
+          alert('contraseña y/o email incorrecto');
+        }
+      });
+
+    firebase.auth().onAuthStateChanged(user => {
+      if (user) {
+        $(location).attr('href', 'home.html');
+      }
+    });
+  });
+
+
   // Funciones de validadión
 
   function validateUser() {
@@ -117,6 +144,7 @@ $(document).ready(function() {
       btnEnter.attr('disabled', false);
     }
   }
+
   function inactiveUser() {
     btnEnter.attr('disabled', 'disabled');
   }
@@ -141,7 +169,7 @@ $(document).ready(function() {
       });
 
     firebase.auth().onAuthStateChanged(function(user) {
-      var userNew = nameRegister.val();    
+      var userNew = nameRegister.val();
       if (user) {
         // Ingresando datos en la base de datos
         firebase.database().ref('users/' + user.uid).set({
@@ -162,37 +190,44 @@ $(document).ready(function() {
 
   // Login por facebook
 
-  
+
   var providerFacebook = new firebase.auth.FacebookAuthProvider();
   btnFacebook.on('click', function() {
-    
-  
     firebase.auth().signInWithPopup(providerFacebook).then(function(result) {
       var token = result.credential.accessToken;
 
       var user = result.user;
-console.log('entro');
+
       firebase.database().ref('users/' + user.uid).set({
         name: user.displayName,
         email: user.email,
         uid: user.uid,
         profilePhoto: user.photoURL,
-        
+
       }).then(
         user => {
           $(location).attr('href', 'home.html');
         });
     }).catch(function(error) {
-    // Handle Errors here.
+      // Handle Errors here.
       var errorCode = error.code;
       var errorMessage = error.message;
       // The email of the user's account used.
       var email = error.email;
       // The firebase.auth.AuthCredential type that was used.
       var credential = error.credential;
-    // ...
+      // ...
     });
   });
 
+  // Cerrar Sesión
 
+  $('.close').click(function() {
+    firebase.auth().signOut().then(function() {
+      $(location).attr('href', 'register.html');
+    }).catch(function(error) {
+    
+
+    });
+  });
 });
