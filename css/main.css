@@ -3,14 +3,37 @@
     font-family: 'Raleway', sans-serif;
 }
 
+header{
+    height: 25vh;
+}
 
 .flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 75vh;
     text-align: center;
+    margin-bottom: 0;
+}
+
+.opacity{
+    color: white;
+    width: 100%;
+    height: inherit;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.w100{
+    width: 20%;
+}
+
+
+.bg-principal{
+    background-image: url('../assets/images/portada3.jpg');
+    background-position: bottom center;
+    background-size: cover;
+
 }
 
 .border {
