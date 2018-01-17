@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
-  setTimeout(function() {
-    window.location.href = 'views/register.html';
-  }, 3000);
+  // setTimeout(function() {
+  //   window.location.href = 'views/register.html';
+  // }, 3000);
 
   // Función que obtiene la información de todas las películas Hindus que se ingresan
   function appiCall(titleMovie) {
@@ -20,8 +20,10 @@ $(document).ready(function() {
   // Llamando a la función
   appiCall('krrish');
 
-  // setTimeout(function() {
-  //   window.location.href = 'views/primera.html';
-  // }, 3000);
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  //$('.collapsible').collapsible();
+
 
 });

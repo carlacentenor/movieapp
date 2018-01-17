@@ -31,14 +31,37 @@
   </ul>
   <nav>
     <div class="nav-wrapper">
-      <img src="../assets/images/" alt="profile-picture" class="circle">
+        <ul id="slide-out" class="side-nav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="images/office.jpg">
+              </div>
+              <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+              <a href="#!name"><span class="white-text name">John Doe</span></a>
+              <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+          </ul>
+         
+      
+      <!-- <ul class="left"> -->
+        <a href="#" data-activates="slide-out" class="button-collapse">
+          <img src="../assets/images/" alt="profile-picture" class="circle" >
+        </a>
+      <!-- </ul>
+                -->
+      
       <!-- vista solo para mobile -->
-      <a href="primera.html" class="btn-floating btn-md waves-effect waves-light  left hide-on-large-only">
+      <!-- <a href="primera.html" class="btn-floating btn-md waves-effect waves-light  left hide-on-large-only">
         <i class="material-icons">navigate_before</i>
-      </a>
-      <nav class=" hide-on-large-only">
+      </a> -->
+      <nav class="hide-on-large-only">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
+          <img src="../assets/images/logo_BP.png" class="brand-logo logo-mobile center">
           <a href="#" data-activates="mobile-demo" class="button-collapse">
             <i class="material-icons">menu</i>
           </a>
@@ -72,7 +95,10 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> <!-- fin mobile -->
+      <div class="brand-logo center hide-on-small-only">
+        <img src="../assets/images/logo_BP.png" alt="logo bollywood planet" class="logo-desktop">
+      </div>
 
       <!-- desktop -->
       <ul class="right">
@@ -82,12 +108,7 @@
         <li>
           <a href="https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news" target="_blank">News</a>
         </li>
-        <!-- <li>
-          <a class="dropdown-button IniciaSesion" href="#!" data-activates="dropdown1">
-            <i class="material-icons"> person_pin</i>
-            <i class="material-icons">arrow_drop_down</i>
-          </a>
-        </li> -->
+        
       </ul>
     </div>
   </nav>
@@ -102,10 +123,9 @@
     </div>
   </section>
 
-
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
-  <script src="../js/primera.js"></script>
+  <script src="../js/app.js"></script>
 </body>
 
 </html>
