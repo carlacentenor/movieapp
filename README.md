@@ -1,9 +1,9 @@
 # Reto Hackaton 
 ---
 
-## 
+## Dia 1
 
-## Planificación - Día 1
+## Planificación 
 El primer día realizamos Brainstorming para obtener la mayor cantidad de ideas posibles.
 * Elegimos al usuario que es fan de las películas de Bollywood.
 * Para ello elaboraremos un portal web de películas de Bollywood con versión mobile y desktop, que tenga contenido de calidad sobre las películas y que le brinde la posibilidad de buscar facil y rapidamente las peliculas segun el tipo de gustos que tenga.
@@ -119,9 +119,11 @@ Que es una marca acerca de todo lo referido a Bollywood.
 1. ¿Que opinas del logo de la marca (imagotipo)?
 Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
 
-### Sketch Version 2: 
+## Sketch Version 2: 
 
-#### Version Mobile:
+### Version Mobile:
+
+
 
 
 Realizado por Squad Powerpuff -Girls.
