@@ -19,7 +19,6 @@ $(document).ready(function() {
   // Llamando a la función
   appiCall('krrish');
 
-  // setTimeout(function() {
-  //   window.location.href = 'views/primera.html';
-  // }, 3000);
+  // Initialize collapse button
+  $('.user').sideNav();
 });

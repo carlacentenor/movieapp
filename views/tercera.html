@@ -1,5 +1,4 @@
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,98 +8,37 @@
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
-
 <body>
-  <!-- desktop -->
-  <!-- Dropdown Structure -->
-  <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li>
-      <a href="#!">Mi Lista</a>
-    </li>
-    <li>
-      <a href="#!">Configuracion</a>
-    </li>
-    <li>
-      <a href="#!">Ayuda</a>
-    </li>
-    <li class="divider"></li>
-    <li>
-      <a href="#!">Cerrar Sesión</a>
-    </li>
-  </ul>
+  <!-- Lateral menu -->
+  <ul id="slide-out" class="side-nav">
+    <li class="hide-on-large-only"><div class="user-view">
+      <div class="background">
+        <img src="../assets/images/fondo1.jpg" alt="background">
+      </div>
+      <a href="#!user"><img class="circle" src="../assets/images/dhadak-0a.jpg" alt="profile-pic"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">add_circle_outline</i>My list</a></li>
+    <li><a href="#!"><i class="material-icons">notifications</i>Notifications</a></li>
+    <li><a href="#!"><i class="material-icons">people_outline</i>Community</a></li>
+    <li><a href="#!"><i class="material-icons">language</i>Language</a></li>
+    <li><a href="#!"><i class="material-icons">settings</i>Settings</a></li>
+    <li><a href="#!"><i class="material-icons">help_outline</i>Help</a></li>
+    <li><a href="#!"><i class="material-icons">keyboard_return</i>Log out</a></li>
+  </ul>  <!-- lateral menu ends-->
   <nav>
     <div class="nav-wrapper">
-        <ul id="slide-out" class="side-nav">
-            <li><div class="user-view">
-              <div class="background">
-                <img src="images/office.jpg">
-              </div>
-              <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-              <a href="#!name"><span class="white-text name">John Doe</span></a>
-              <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-            </div></li>
-            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-            <li><a href="#!">Second Link</a></li>
-            <li><div class="divider"></div></li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-          </ul>
-         
-      
-      <!-- <ul class="left"> -->
-        <a href="#" data-activates="slide-out" class="button-collapse">
-          <img src="../assets/images/" alt="profile-picture" class="circle" >
+      <ul class="left">
+        <a href="#" data-activates="slide-out" class="user" >
+          <img src="../assets/images/" alt="profile-picture" class="circle hide-on-small-only">
+          <i class="material-icons  hide-on-large-only">menu</i>
         </a>
-      <!-- </ul>
-                -->
-      
-      <!-- vista solo para mobile -->
-      <!-- <a href="primera.html" class="btn-floating btn-md waves-effect waves-light  left hide-on-large-only">
-        <i class="material-icons">navigate_before</i>
-      </a> -->
-      <nav class="hide-on-large-only">
-        <div class="nav-wrapper">
-          <img src="../assets/images/logo_BP.png" class="brand-logo logo-mobile center">
-          <a href="#" data-activates="mobile-demo" class="button-collapse">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="side-nav" id="mobile-demo">
-            <li>
-              <a href="">Nombre</a>
-            </li>
-            <li>
-              <a href="l">Notificaciones</a>
-            </li>
-            <li>
-              <a href="">Inicio</a>
-            </li>
-            <li>
-              <a href="">Drama</a>
-            </li>
-            <li>
-              <a href="">Acción</a>
-            </li>
-            <li>
-              <a href="">Musicales</a>
-            </li>
-            <li>
-              <a href="">Comunidad</a>
-            </li>
-            <li>
-              <a href="">Configuración</a>
-            </li>
-            <li>
-              <a href="">Cerrar Sesión</a>
-            </li>
-          </ul>
-        </div>
-      </nav> <!-- fin mobile -->
+      </ul>
+               
       <div class="brand-logo center hide-on-small-only">
         <img src="../assets/images/logo_BP.png" alt="logo bollywood planet" class="logo-desktop">
       </div>
 
-      <!-- desktop -->
       <ul class="right">
         <li>
           <i class="material-icons">search</i>
@@ -108,21 +46,34 @@
         <li>
           <a href="https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news" target="_blank">News</a>
         </li>
-        
       </ul>
     </div>
   </nav>
   <!-- Genre section -->
   <section>
-    <p>generos</p>
-    <div class="generos ">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
+    <div class="container">
+      <div class="row">
+        <h4>Specific Genre</h4>
+      </div>
+
+      <div class="row">
+        <div class="col l3 col s12"> 
+          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col l3 col s12"> 
+          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col l3 col s12"> 
+          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
+        </div>
+        <div class="col l3 col s12"> 
+          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
+        </div>
+      </div>
     </div>
   </section>
 
+<!-- Source -->
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
   <script src="../js/app.js"></script>

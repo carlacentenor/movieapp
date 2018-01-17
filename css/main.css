@@ -3,7 +3,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-
 .flex {
   display: flex;
   flex-direction: column;
@@ -70,24 +69,6 @@ height: 75vh;
   height: 100vh;
 }
 
-.IniciaSesion {
-  width: 335px;
-  display: flex;
-}
-
-#dropdown1 {
-  margin-top: 4em;
-}
-
-.generos img {
-    width: 20%;
-    height: 30%;
-}
-
 .logo-desktop {
   width: 120px;
-}
-
-.logo-mobile {
-  width: 100px;
 }
