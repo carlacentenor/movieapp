@@ -1,3 +1,43 @@
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.border {
+border-radius: 10px;
+}
+
+.box-buttons{
+    margin: 1em;
+}
+
+.phrase{
+    font-size: 25px;
+}
+
+.line::after , .line::before {
+    content: '';
+    width: 10%;
+    height: 1px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.pd1{
+    margin: 0 10px;
+}
+
+
 .splash {
     background-color: green;
 }
