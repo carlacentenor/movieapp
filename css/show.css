@@ -1,6 +1,26 @@
 *{
   font-family: 'Raleway', sans-serif;
 }
+nav{
+  height: 9.5rem;
+  
+}
+
+nav i {
+  color: black;
+}
+
+
+.pad1e{
+  padding: 1em;
+}
+
+.info-small p {
+  display: inline-block;
+  margin-left: 10px;
+  padding-right: 1em;
+  border-right: 1px solid gray;
+}
 
 .in-block {
   display: inline-block;
@@ -19,17 +39,27 @@
   margin-bottom: 0;}
 
 .recomended{
-outline: 1px solid blue;
+
 height: auto;
 }
 
-.year, .star ,.time,.sinopsis {
-  outline: 1px solid red;
-height: 5vh;
-}
+
 
 .container-movies{
   display: flex;
   flex-wrap: wrap;
 }
 
+.box-user-comment{
+  width: 30em;
+}
+
+.user-login{
+  width: 3em;
+}
+
+.border-sha{
+  padding: 1em;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}

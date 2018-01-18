@@ -3,7 +3,6 @@ $(document).ready(function() {
   $('.button-collapse').sideNav();
 
   var movieShow = localStorage.movie;
-
   
  
   // Función que obtiene la información de todas las películas Hindus que se ingresan
@@ -22,5 +21,4 @@ $(document).ready(function() {
   }
   // Llamando a la función
   appiCall(movieShow);
-
 });
