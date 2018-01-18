@@ -71,6 +71,7 @@ height: 75vh;
 footer{
   background-color: rgb(32, 28, 28);
   color: white;
+  margin-top: 4.4em;
 }
 
 footer p {
@@ -123,4 +124,11 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+@media (min-width:1280px) {
+  
+  footer{
+   margin-top: 7.3em;
+  }
 }
