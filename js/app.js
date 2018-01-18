@@ -1,5 +1,4 @@
 $(document).ready(function() {
-<<<<<<< HEAD
   $('.modal').modal();
   var config = {
     apiKey: 'AIzaSyCU1vcZK3J7iQKGNuz5mEhh1ptPxY3U4yo',
@@ -230,18 +229,6 @@ $(document).ready(function() {
       
     });
   });
-=======
-  // setTimeout(function() {
-  //   window.location.href = 'views/register.html';
-  // }, 3000);
-
-  // Función que obtiene la información de todas las películas Hindus que se ingresan
- 
-  // Llamando a la función
-  
-
-  // Initialize collapse button
->>>>>>> 2b2eb71e9a8bc420071ee86b3599e868e6ade62c
 
   // Añade Comentarios
   var btn = $('.btn-send');
