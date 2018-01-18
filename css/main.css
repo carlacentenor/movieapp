@@ -1,23 +1,28 @@
-
 *{
   font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 .flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 90vh;
   text-align: center;
+}
+
+.header {
+  padding-top: 0;
 }
 
 nav{
   height: 9.5rem;
   color: black;
 }
+
 .logo {
   height: 9.5rem;
   width: 17rem; 
@@ -37,18 +42,21 @@ nav{
 }
 
 .box-buttons{
-  margin: 1em;
+  margin: 2rem;
+  margin-top:4rem; 
 }
 
 .phrase{
-  font-size: 25px;
+  font-size: 30px;
+  line-height: 55px;
+  padding-bottom: 20px;
 }
 
 .bg-principal{
   background-image: url('../assets/images/portada3.jpg');
-background-position: bottom center;
-background-size: cover;
-height: 75vh;
+  background-position: bottom center;
+  background-size: cover;
+  height: 77vh;
 }
 
 .opacity{
@@ -58,12 +66,25 @@ height: 75vh;
   height: inherit;
 }
 
+.fvbtns:hover {
+  background-color: transparent !important;
+}
+
 .line::after , .line::before {
   content: '';
   width: 10%;
   height: 1px;
   background-color: gray;
   display: inline-block;
+}
+
+.bg-modal {
+  background-image: url('../assets/images/fondo2.jpeg');
+}
+
+.title-modal {
+  font-family: 'Supermercado One', cursive;
+  font-size: 35px;
 }
 
 .pd1{
@@ -78,11 +99,6 @@ footer{
 
 footer p {
   margin-bottom: 0;
-}
-
-
-.splash {
-  background-color: green;
 }
 
 .imgDesktop{
@@ -102,28 +118,4 @@ footer p {
 .generos img {
     width: 20%;
     height: 30%;
-}
-
-/* Seccion yolanda puro yolitas *-* */
-
-/* ventana index*/
-.yoli {
-    background-image: url(../assets/images/tajmahal.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-
-/* seccion flex yoli*/
-
-.yoli-flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.yoli-flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
