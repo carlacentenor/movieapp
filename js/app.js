@@ -24,6 +24,9 @@ $(document).ready(function() {
   // Añade Comentarios
   var btn = $('.btn-send');
   var inputMsg = $('.input-msg');
+
+  inputMsg.focus();
+
   inputMsg.on('keydown', function() {
     btn.removeClass('hide');
   });
@@ -47,5 +50,8 @@ $(document).ready(function() {
       userBox.appendTo($('.container-comment'));
       inputMsg.val('');
     }
+  });
+  $(document).ready(function() {
+    $('.tooltipped').tooltip({delay: 50});
   });
 });
