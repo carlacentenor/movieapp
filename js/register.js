@@ -233,9 +233,6 @@ $(document).ready(function() {
 
   /** yolanda seccion de yoli *-* */
 
-  $('#yoli').setTimeout(function() {
-    window.location.href = 'home2.html';
-  }, 3000);
   
 
 });

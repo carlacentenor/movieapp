@@ -113,6 +113,15 @@ footer p {
 }
 
 /* seccion flex yoli*/
+.space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vh100 {
+  height: 100vh;
+}
+
 
 .yoli-flex-container {
     display: flex;
@@ -124,6 +133,12 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.inputTercero {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 @media (min-width:1280px) {

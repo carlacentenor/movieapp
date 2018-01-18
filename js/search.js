@@ -34,7 +34,7 @@ $(document).ready(function() {
         });
       } else {
         $('.user-name').text(name);
-        
+
         $('.img-user').attr('src', photoUrl);
       }
     } else {
@@ -81,5 +81,25 @@ $(document).ready(function() {
     selectionGenre = 'Estrenos';
     localStorage.genre = selectionGenre;
     window.location.href = 'tercera.html';
+  });
+
+  $('.btn-search1').click(function() {
+    var searchOn = $('#text-search2').val();
+    for (var i = 0; i < movies.length; i++) {
+      if (searchOn === movies[i].title) {
+        localStorage.movie = movies[i].title;
+        window.location.href = 'cuarta.html';
+      } 
+    } 
+  });
+
+  $('.btn-search1').click(function() {
+    var searchOn = $('#text-search2').val();
+    for (var i = 0; i < movies.length; i++) {
+      if (searchOn === movies[i].title) {
+        localStorage.movie = movies[i].title;
+        window.location.href = 'cuarta.html';
+      } 
+    } 
   });
 });
