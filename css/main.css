@@ -185,9 +185,16 @@ footer p {
     height: 30%;
 }
 
+<<<<<<< HEAD
 .wid-img{
   width: 15%;
   position: relative;
   top: 1.5em;
   left: 1.5em;
 }
+=======
+.footer-letter {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 27px;
+}
+>>>>>>> 38a7126280b1cb9b70bf57d817673e78f03f1c6b
