@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.user').sideNav();
-  $('.button-collapse').sideNav();
+  $('.button-menu').sideNav();
   
   var movieShow = localStorage.movie;
   var btnFavorite = $('.btn-favorite');
@@ -24,11 +24,12 @@ $(document).ready(function() {
 
   // Guardando info a la base de datos
   var referenciaUser = database.ref('users').child(localStorage.uid).child('favorite');
+
   btnFavorite.on('click', function() {
     var movie = {
       title: localStorage.movie,
     };
     referenciaUser.push(movie);
-    Materialize.toast('Movie add in your list', 4000);
+
   });
 });

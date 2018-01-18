@@ -132,7 +132,8 @@ $(document).ready(function() {
   
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
-        $(location).attr('href', 'home.html');
+        localStorage.uid = user.uid;
+        $(location).attr('href', 'views/home.html');
       }
     });
   });
@@ -207,7 +208,8 @@ $(document).ready(function() {
   
       }).then(
         user => {
-          $(location).attr('href', 'home.html');
+          localStorage.uid = user.uid;
+          $(location).attr('href', 'views/home.html');
         });
     }).catch(function(error) {
       // Handle Errors here.
