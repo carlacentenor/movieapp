@@ -132,7 +132,8 @@ $(document).ready(function() {
   
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
-        $(location).attr('href', 'home.html');
+        localStorage.uid = user.uid;
+        $(location).attr('href', 'views/home.html');
       }
     });
   });
@@ -207,7 +208,8 @@ $(document).ready(function() {
   
       }).then(
         user => {
-          $(location).attr('href', 'home.html');
+          localStorage.uid = user.uid;
+          $(location).attr('href', 'views/home.html');
         });
     }).catch(function(error) {
       // Handle Errors here.
@@ -241,10 +243,6 @@ $(document).ready(function() {
     btn.removeClass('hide');
   });
 
-
-  
-  
-
   btn.on('click', function() {
     if (inputMsg.val() !== '') {
       var msg = $('<p/>');
@@ -265,7 +263,11 @@ $(document).ready(function() {
       inputMsg.val('');
     }
   });
+
   $(document).ready(function() {
     $('.tooltipped').tooltip({delay: 50});
   });
+
+  // Initialize collapse button
+  $('.user-side').sideNav();
 });

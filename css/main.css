@@ -179,3 +179,13 @@ footer p {
     height: 30%;
 }
 
+.wid-img{
+  width: 15%;
+  position: relative;
+  top: 1.5em;
+  left: 1.5em;
+}
+
+nav i {
+  color: black;
+}
