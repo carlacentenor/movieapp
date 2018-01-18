@@ -177,9 +177,9 @@ $(document).ready(function() {
           name: userNew,
           email: user.email,
           uid: user.uid,
+          favorite: 'value',
           profilePhoto: '../assets/images/user.png',
         }).then(user => {
-          
           console.log('Usuario Registrado');
           
           window.location.href = 'register.html';
@@ -205,6 +205,7 @@ $(document).ready(function() {
         name: user.displayName,
         email: user.email,
         uid: user.uid,
+        favorite: 'value',
         profilePhoto: user.photoURL,
 
       }).then(

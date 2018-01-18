@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('.user').sideNav();
   $('.button-collapse').sideNav();
-
+  
   var movieShow = localStorage.movie;
   var btnFavorite = $('.btn-favorite');
   var database = firebase.database();
@@ -29,5 +29,6 @@ $(document).ready(function() {
       title: localStorage.movie,
     };
     referenciaUser.push(movie);
+    Materialize.toast('Movie add in your list', 4000);
   });
 });

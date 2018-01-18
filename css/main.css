@@ -37,6 +37,9 @@ nav{
   flex-wrap: wrap;
 }
 
+.contain {
+  margin: 1em;
+}
 
 .border {
   border-radius: 10px;
