@@ -1,164 +1,127 @@
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>splasht</title>
+  <title>Third view</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="../css/show.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
-
 <body>
-  <!-- desktop -->
-  <!-- Dropdown Structure -->
-  <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li>
-      <a href="#!">Mi Lista</a>
-    </li>
-    <li>
-      <a href="#!">Configuracion</a>
-    </li>
-    <li>
-      <a href="#!">Ayuda</a>
-    </li>
-    <li class="divider"></li>
-    <li>
-      <a href="#!">Cerrar Sesión</a>
-    </li>
-  </ul>
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo">Logo</a>
-      <!-- vista solo para mobile -->
-      <a href="primera.html" class="btn-floating btn-md waves-effect waves-light  left hide-on-large-only">
-        <i class="material-icons">navigate_before</i>
-      </a>
-      <nav class=" hide-on-large-only">
+    <nav class="#f9fbe7 lime lighten-5">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse">
+          
+         <img class="logo" href="home.html" src="../assets/images/logo_BP2.png">
+          <a href="#" data-activates="slide-out" class="button-collapse">
             <i class="material-icons">menu</i>
           </a>
-          <ul class="side-nav" id="mobile-demo">
+          <ul class="right hide-on-med-and-down">
             <li>
-              <a href="">Nombre</a>
+              <input class="in-block" type="text" id="text-search">
             </li>
             <li>
-              <a href="l">Notificaciones</a>
+              <a class="btn-search">
+                <i class="material-icons">search</i>
+              </a>
             </li>
             <li>
-              <a href="">Inicio</a>
+              <a href="sass.html">
+                <i class="material-icons">library_books</i>
+              </a>
             </li>
             <li>
-              <a href="">Drama</a>
+              <a class="dropdown-button name-user" href="#!" data-activates="dropdown1">
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+            <ul id="dropdown1" class="dropdown-content">
+              <li>
+                <a href="#!">one</a>
+              </li>
+              <li>
+                <a href="#!">two</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#!">three</a>
+              </li>
+            </ul>
+    
+          </ul>
+          <ul id="slide-out" class="side-nav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="../assets/images/fondo4.jpg">
+                </div>
+                <a href="#!user">
+                  <img class="circle img-user" src="">
+                </a>
+                <a href="#!name">
+                  <span class="white-text name name-user"></span>
+                </a>
+                <a href="#!email">
+                  <span class="white-text email email-user"></span>
+                </a>
+              </div>
             </li>
             <li>
-              <a href="">Acción</a>
+              <a href="#!">
+                <i class="material-icons">home</i>Home</a>
             </li>
             <li>
-              <a href="">Musicales</a>
+              <a href="#!">
+                <i class="material-icons">check_circle</i>My List</a>
             </li>
             <li>
-              <a href="">Comunidad</a>
+              <a href="#!">
+                <i class="material-icons">notifications</i>Notiications</a>
             </li>
             <li>
-              <a href="">Configuración</a>
+              <a href="#!">
+                <i class="material-icons">people</i>Community</a>
             </li>
             <li>
-              <a href="">Cerrar Sesión</a>
+              <a href="#!">
+                <i class="material-icons">language</i>Languages</a>
             </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">settings</i>Settings</a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">settings_power</i>Log Out</a>
+            </li>
+    
           </ul>
         </div>
       </nav>
-
-      <!-- desktop -->
-      <ul class="right">
-        <li>
-          <i class="material-icons">search</i>
-        </li>
-        <li>
-          <i class="material-icons">notifications_active</i>
-        </li>
-        <li>
-          <a class="dropdown-button IniciaSesion" href="#!" data-activates="dropdown1">
-            <i class="material-icons"> person_pin</i>
-            <i class="material-icons">arrow_drop_down</i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/1">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/2">
-        <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/3">
-        <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/4">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
+  <!-- Genre section -->
   <section>
-    <p>generos</p>
-    <div class="generos ">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-    </div>
+    
+      <h5 class="title-genre"></h5>
+      <div class="container-movies">
+        
+      </div>
+    
   </section>
-  <section>
-    <p>recomendados</p>
-    <div class="generos ">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-    </div>
-  </section>
-  <section>
-    <p>etc</p>
-    <div class="generos ">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-      <img src="../assets/docs/idea3.jpg" alt="">
-    </div>
-  </section>
-
-
+  <footer>
+      <p>Follows us</p>
+      <div class="icon-social">
+      
+        
+      </div>
+      <p>Made by</p>
+      <p>The Power Puff Girls</p>
+      </footer>
+<!-- Source -->
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
-  <script src="../js/primera.js"></script>
+<script src="../js/data.js"></script>
+<script src="../js/genre.js"></script>
 </body>
 
 </html>

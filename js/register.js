@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $('.modal').modal();
   var config = {
     apiKey: 'AIzaSyCU1vcZK3J7iQKGNuz5mEhh1ptPxY3U4yo',
@@ -10,38 +9,38 @@ $(document).ready(function() {
     messagingSenderId: '16618341901'
   };
   firebase.initializeApp(config);
-  
-  
+
+
   // variables Login
-  
+
   var emailLogin = $('.email-login');
   var passwordLogin = $('.password-login');
-  
-  
+
+
   // Register
-  
+
   var nameRegister = $('.name-register');
   var emailRegister = $('.email-register');
   var passwordRegister = $('.password-register');
   var confirPass = $('.confirm-register');
   var check = $('.checkbox-term');
-  
+
   // buttons
-  
+
   var btnSubmit = $('#btn-submit');
   var btnEnter = $('#btn-enter');
   var btnFacebook = $('#btn-facebook');
-  
+
   var validatePassword = false;
   var validateEmail = false;
   var validateName = false;
   var validateChek = false;
   var validateConfirmPass = false;
-  
-  
+
+
   emailRegister.on('keyup', function(event) {
     var EMAILUSER = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
-  
+
     if (EMAILUSER.test($(this).val())) {
       validateEmail = true;
       validateRegister();
@@ -49,8 +48,8 @@ $(document).ready(function() {
       inactiveRegister();
     }
   });
-  
-  
+
+
   passwordRegister.on('keyup', function(event) {
     if (passwordRegister.val().length >= 6) {
       validatePassword = true;
@@ -59,7 +58,7 @@ $(document).ready(function() {
       inactiveRegister();
     }
   });
-  
+
   confirPass.on('keyup', function(event) {
     if (confirPass.val() === passwordRegister.val()) {
       validateConfirmPass = true;
@@ -68,8 +67,8 @@ $(document).ready(function() {
       inactiveRegister();
     }
   });
-  
-  
+
+
   nameRegister.on('keyup', function(event) {
     if (nameRegister.val()) {
       validateName = true;
@@ -78,8 +77,8 @@ $(document).ready(function() {
       inactiveRegister();
     }
   });
-  
-  
+
+
   check.on('click', function(event) {
     if (event.target.checked) {
       validateChek = true;
@@ -88,12 +87,12 @@ $(document).ready(function() {
       inactiveRegister();
     }
   });
-  
-  
+
+
   // Login
   emailLogin.on('keyup', function(event) {
     var EMAILUSER = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
-  
+
     if (EMAILUSER.test($(this).val())) {
       validateEmail = true;
       validateUser();
@@ -101,7 +100,7 @@ $(document).ready(function() {
       inactiveUser();
     }
   });
-  
+
   passwordLogin.on('keyup', function(event) {
     if (passwordLogin.val()) {
       validatePassword = true;
@@ -110,65 +109,66 @@ $(document).ready(function() {
       inactiveUser();
     }
   });
-  
+
   // Autentificación por email y password
-    
+  
   btnEnter.click(function(event) {
     event.preventDefault();
-  
+
     var email = emailLogin.val();
     var password = passwordLogin.val();
-  
+
     firebase.auth().signInWithEmailAndPassword(email, password)
       .catch(function(error) {
-        // Handle Errors here.
-          
+      // Handle Errors here.
+        
         var errorCode = error.code;
         var errorMessage = error.message;
         if (errorCode || errorMessage) {
           alert('contraseña y/o email incorrecto');
         }
       });
-  
+
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
+        localStorage.uid = user.uid;
         $(location).attr('href', 'home.html');
       }
     });
   });
-  
-  
+
+
   // Funciones de validadión
-  
+
   function validateUser() {
     if (validateEmail && validatePassword) {
       btnEnter.attr('disabled', false);
     }
   }
-  
+
   function inactiveUser() {
     btnEnter.attr('disabled', 'disabled');
   }
-  
-  
+
+
   function validateRegister() {
     if (validateEmail && validatePassword && validateName && validateConfirmPass && validateChek) {
       btnSubmit.attr('disabled', false);
     }
   }
-  
+
   function inactiveRegister() {
     btnSubmit.attr('disabled', 'disabled');
   }
-  
-  
+
+
   btnSubmit.click(function() {
     firebase.auth().createUserWithEmailAndPassword(emailRegister.val(), passwordRegister.val())
       .catch(function(error) {
         var errorCode = error.code;
         var errorMessage = error.message;
       });
-  
+
     firebase.auth().onAuthStateChanged(function(user) {
       var userNew = nameRegister.val();
       if (user) {
@@ -177,9 +177,11 @@ $(document).ready(function() {
           name: userNew,
           email: user.email,
           uid: user.uid,
+          favorite: 'value',
           profilePhoto: '../assets/images/user.png',
         }).then(user => {
           console.log('Usuario Registrado');
+          
           window.location.href = 'register.html';
         });
       } else {
@@ -187,26 +189,28 @@ $(document).ready(function() {
       }
     });
   });
-  
-  
+
+
   // Login por facebook
-  
-  
+
+
   var providerFacebook = new firebase.auth.FacebookAuthProvider();
   btnFacebook.on('click', function() {
     firebase.auth().signInWithPopup(providerFacebook).then(function(result) {
       var token = result.credential.accessToken;
-  
+
       var user = result.user;
-  
+
       firebase.database().ref('users/' + user.uid).set({
         name: user.displayName,
         email: user.email,
         uid: user.uid,
+        favorite: 'value',
         profilePhoto: user.photoURL,
-  
+
       }).then(
         user => {
+          localStorage.uid = user.uid;
           $(location).attr('href', 'home.html');
         });
     }).catch(function(error) {
@@ -220,46 +224,23 @@ $(document).ready(function() {
       // ...
     });
   });
-  
+
   // Cerrar Sesión
-  
+
   $('.close').click(function() {
     firebase.auth().signOut().then(function() {
       $(location).attr('href', 'register.html');
     }).catch(function(error) {
-      
+    
+
     });
   });
 
-  // Añade Comentarios
-  var btn = $('.btn-send');
-  var inputMsg = $('.input-msg');
-  inputMsg.on('keydown', function() {
-    btn.removeClass('hide');
-  });
+  /** yolanda seccion de yoli *-* */
 
-
-  
-  
-
-  btn.on('click', function() {
-    if (inputMsg.val() !== '') {
-      var msg = $('<p/>');
-      var userBox = $('<div/>');
-      var userInfo = $('<div/>');
-      var userPic = $('<img/>');
-      var userName = $('<p/>');
-      msg.text(inputMsg.val());
-      userBox.addClass('border-sha');
-      userPic.addClass('circle img-user user-login in-block');
-      userName.addClass('user-name in-block');
-      msg.appendTo(userBox);
-      userPic.appendTo(userInfo);
-      userName.appendTo(userInfo);
-      userInfo.appendTo(userBox);
-      userInfo.insertBefore(msg);
-      userBox.appendTo($('.container-comment'));
-      inputMsg.val('');
-    }
-  });
+  function time() {
+    $('#yoliSuper').delay(4000).fadeIn();
+    $('#yoliSuper1').delay(4001).fadeOut();
+  }
+  time();
 });

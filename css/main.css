@@ -1,3 +1,4 @@
+
 *{
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
@@ -10,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 90vh;
   text-align: center;
 }
 
@@ -66,7 +67,20 @@ nav{
   background-position: bottom center;
   background-size: cover;
   height: 77vh;
+
+  
+  text-align: center;
 }
+
+nav{
+  height: 9.5rem;
+  color: black;
+}
+.logo {
+  height: 9.5rem;
+  width: 17rem; 
+ }
+
 
 .opacity{
   color: white;
@@ -77,7 +91,45 @@ nav{
 
 .fvbtns:hover {
   background-color: transparent !important;
+
+.title{
+  color: black;
+  text-transform: capitalize;
 }
+
+.border-rad10{
+  border-radius: 10px;
+}
+
+.container-movies{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contain {
+  margin: 1em;
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.box-buttons{
+  margin: 1em;
+}
+
+.phrase{
+  font-size: 25px;
+}
+
+.bg-principal{
+  background-image: url('../assets/images/portada3.jpg');
+background-position: bottom center;
+background-size: cover;
+height: 75vh;
+}
+
+
 
 .line::after , .line::before {
   content: '';
@@ -87,6 +139,7 @@ nav{
   display: inline-block;
 }
 
+
 .bg-modal {
   background-image: url('../assets/images/fondo2.jpeg');
 }
@@ -95,6 +148,7 @@ nav{
   font-family: 'Supermercado One', cursive;
   font-size: 35px;
 }
+
 
 .pd1{
   margin: 0 10px;
@@ -109,6 +163,7 @@ footer{
 footer p {
   margin-bottom: 0;
 }
+
 
 .imgDesktop{
   background-image: url('../assets/docs/idea3.jpg');
@@ -128,3 +183,4 @@ footer p {
     width: 20%;
     height: 30%;
 }
+
