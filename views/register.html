@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Planet Bollywood</title>
+  <title>register html</title>
+  <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="../assets/icons/icomoon/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,33 +14,35 @@
 </head>
 
 <body>
-<header class="center-align"><img src="../assets/images/logo_BP.png" alt="logo"></header>
-  
+  <header id="register-yoli" class="center-align hide-on-small-only">
+    <img src="../assets/images/logo_BP.png" alt="logo">
+  </header>
 
-  <section class="hide-on-small-only  bg-principal">
+
+  <section id="register-yoli" class="hide-on-small-only  bg-principal">
     <div class="opacity flex">
-    <div class="row">
-      <div class="col s12">
-          
-              <div class="phrase">
-                <p>The world's largest community of Bollywood fans</p>
-                <p> Movies, musicals, events and more</p>
-              </div>
-              <div class="">
-                <button id="btn-home" class="btn border #ffc107 amber">Enter as a guest</button>
-        
-              </div>
-              <div class="box-buttons">
-              
-                <button data-target="modal1"  class="btn modal-trigger border ">Login</button>
-                <button data-target="modal2" class="btn modal-trigger border ">Sign Up</button>
-              </div>
-        
-                  </div>
+      <div class="row">
+        <div class="col s12">
+
+          <div class="phrase">
+            <p>The world's largest community of Bollywood fans</p>
+            <p> Movies, musicals, events and more</p>
+          </div>
+          <div class="">
+            <button id="btn-home" class="btn border #ffc107 amber">Enter as a guest</button>
+
+          </div>
+          <div class="box-buttons">
+
+            <button data-target="modal1" class="btn modal-trigger border ">Login</button>
+            <button data-target="modal2" class="btn modal-trigger border ">Sign Up</button>
+          </div>
+
+        </div>
+      </div>
     </div>
-  </div>
   </section>
-  
+
 
   <!-- modal -->
   <!-- Modal Structure -->
@@ -62,9 +65,14 @@
             <div class="center-align">
               <button class="btn border" id="btn-enter">Enter</button>
             </div>
-            <div class="center-align"><p class="line"><span class="pd1">or</span></p></div>
+            <div class="center-align">
+              <p class="line">
+                <span class="pd1">or</span>
+              </p>
+            </div>
             <div class="center -align">
-              <button class="btn border #1565c0 blue darken-3" id="btn-facebook"><span class="icon-facebook pd1"></span>Facebook</button>
+              <button class="btn border #1565c0 blue darken-3" id="btn-facebook">
+                <span class="icon-facebook pd1"></span>Facebook</button>
             </div>
           </div>
         </div>
@@ -76,51 +84,67 @@
   <!-- modal Register -->
   <!-- Modal Structure -->
   <div id="modal2" class="modal">
-      <div class="modal-content">
-        <div class="box-login">
+    <div class="modal-content">
+      <div class="box-login">
+        <div class="row">
+          <h5 class="center-align">Join Us!</h5>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_name" type="text" class="name-register">
+            <label for="icon_name">First Name</label>
+          </div>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">email</i>
+            <input id="icon_mail" type="text" class="email-register">
+            <label for="icon_mail">e-mail</label>
+          </div>
           <div class="row">
-            <h5 class="center-align">Join Us!</h5>
             <div class="input-field col s12">
-              <i class="material-icons prefix">account_circle</i>
-              <input id="icon_name" type="text" class="name-register">
-              <label for="icon_name">First Name</label>
+              <i class="material-icons prefix">lock_outline</i>
+              <input id="icon_pass-r" type="password" class="password-register">
+              <label for="icon_pass-r">Password</label>
             </div>
             <div class="input-field col s12">
-                <i class="material-icons prefix">email</i>
-                <input id="icon_mail" type="text" class="email-register">
-                <label for="icon_mail">e-mail</label>
-              </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">lock_outline</i>
-                <input id="icon_pass-r" type="password" class="password-register">
-                <label for="icon_pass-r">Password</label>
-              </div>
-              <div class="input-field col s12">
-                  <i class="material-icons prefix">lock</i>
-                  <input id="icon_con" type="password" class="confirm-register">
-                  <label for="icon_con">Confirm Password</label>
-                </div>
-              
+              <i class="material-icons prefix">lock</i>
+              <input id="icon_con" type="password" class="confirm-register">
+              <label for="icon_con">Confirm Password</label>
             </div>
-            
-              <div>
-                  <p class=center-align>
-                      <input type="checkbox" id="test5" class="checkbox-term" >
-                      <label for="test5">Accept terms and conditions</label>
-                    </p>
-              </div>
-              <div class="center-align">
-                  
-                    <button class="btn border" id="btn-submit" disabled>Submit</button>
-                  </div>
+
+          </div>
+
+          <div>
+            <p class=center-align>
+              <input type="checkbox" id="test5" class="checkbox-term">
+              <label for="test5">Accept terms and conditions</label>
+            </p>
+          </div>
+          <div class="center-align">
+
+            <button class="btn border" id="btn-submit" disabled>Submit</button>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
+
+  <!-- solo vista mobile el splash esta aqui ---yoli--- -->
+
+  <section id="yoli" class="yoli-flex-container yoli hide-on-large-only ">
     
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  </section>
+ <!-- solo vista mobile el splash esta aqui ---yoli--- -->
+ <footer>
+  <p>Follows us</p>
+  <div class="icon-social">
+  
+    
+  </div>
+  <p>Made by</p>
+  <p>The Power Puff Girls</p>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>

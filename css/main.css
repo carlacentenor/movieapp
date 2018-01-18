@@ -158,6 +158,7 @@ height: 75vh;
 footer{
   background-color: rgb(32, 28, 28);
   color: white;
+  margin-top: 4.4em;
 }
 
 footer p {
@@ -184,3 +185,51 @@ footer p {
     height: 30%;
 }
 
+<<<<<<< HEAD
+=======
+/* Seccion yolanda puro yolitas *-* */
+
+/* ventana index*/
+.yoli {
+    background-image: url(../assets/images/tajmahal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+/* seccion flex yoli*/
+.space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vh100 {
+  height: 100vh;
+}
+
+
+.yoli-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yoli-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.inputTercero {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+@media (min-width:1280px) {
+  
+  footer{
+   margin-top: 7.3em;
+  }
+}
+>>>>>>> 30af19a60318e3bec5a82f7b7788eeb0ad6ff467
