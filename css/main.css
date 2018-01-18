@@ -1,9 +1,10 @@
 
 *{
   font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 .flex {
   display: flex;
@@ -11,6 +12,63 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
+  text-align: center;
+}
+
+.header {
+  padding-top: 0;
+}
+
+nav{
+  height: 9.5rem;
+  color: black;
+}
+
+.logo {
+  height: 9.5rem;
+  width: 17rem; 
+ }
+
+.title{
+  color: black;
+  text-transform: capitalize;
+}
+
+.border-rad10{
+  border-radius: 10px;
+}
+
+.container-movies{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contain {
+  margin: 1em;
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.box-buttons{
+  margin: 2rem;
+  margin-top:4rem; 
+}
+
+.phrase{
+  font-size: 30px;
+  line-height: 55px;
+  padding-bottom: 20px;
+}
+
+.bg-principal{
+  background-image: url('../assets/images/portada3.jpg');
+  background-position: bottom center;
+  background-size: cover;
+  height: 77vh;
+
+  
   text-align: center;
 }
 
@@ -22,6 +80,17 @@ nav{
   height: 9.5rem;
   width: 17rem; 
  }
+
+
+.opacity{
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: inherit;
+}
+
+.fvbtns:hover {
+  background-color: transparent !important;
 
 .title{
   color: black;
@@ -60,12 +129,7 @@ background-size: cover;
 height: 75vh;
 }
 
-.opacity{
-  color: white;
-  background: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  height: inherit;
-}
+
 
 .line::after , .line::before {
   content: '';
@@ -74,6 +138,17 @@ height: 75vh;
   background-color: gray;
   display: inline-block;
 }
+
+
+.bg-modal {
+  background-image: url('../assets/images/fondo2.jpeg');
+}
+
+.title-modal {
+  font-family: 'Supermercado One', cursive;
+  font-size: 35px;
+}
+
 
 .pd1{
   margin: 0 10px;
@@ -89,10 +164,6 @@ footer p {
   margin-bottom: 0;
 }
 
-
-.splash {
-  background-color: green;
-}
 
 .imgDesktop{
   background-image: url('../assets/docs/idea3.jpg');
@@ -113,26 +184,3 @@ footer p {
     height: 30%;
 }
 
-/* Seccion yolanda puro yolitas *-* */
-
-/* ventana index*/
-.yoli {
-    background-image: url(../assets/images/tajmahal.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-
-/* seccion flex yoli*/
-
-.yoli-flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.yoli-flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
