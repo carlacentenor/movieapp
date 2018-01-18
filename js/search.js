@@ -82,4 +82,6 @@ $(document).ready(function() {
     localStorage.genre = selectionGenre;
     window.location.href = 'tercera.html';
   });
+
+
 });
