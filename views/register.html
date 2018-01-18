@@ -21,7 +21,7 @@
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo center">Logo</a>
       <!-- vista solo para mobile -->
-      <a href="primera.html" class="btn-floating btn-md waves-effect waves-light  left hide-on-large-only">
+      <a href="primera.html" class="left hide-on-large-only">
         <i class="material-icons">navigate_before</i>
       </a>
       <!-- desktop -->
@@ -37,46 +37,44 @@
   <section class="hide-on-small-only flex">
     <div class="row">
       <div class="col s12">
-          
-              <div class="phrase">
-                <p>The world's largest community of Bollywood fans</p>
-                <p> Movies, musicals, events and more</p>
-              </div>
-              <div class="">
-                <button id="" class="btn border #ffc107 amber">Enter as a guest</button>
-        
-              </div>
-              <div class="box-buttons">
-              
-                <button data-target="modal1" class="btn modal-trigger border ">Login</button>
-                <button data-target="modal2" class="btn modal-trigger border ">Sign Up</button>
-              </div>
-        
-                  </div>
+        <div class="phrase">
+          <p>The world's largest community of Bollywood fans</p>
+          <p> Movies, musicals, events and more</p>
+        </div>
+        <div class="">
+          <button id="" class="btn border #ffc107 amber">Enter as a guest</button>
+        </div>
+        <div class="box-buttons">
+          <button data-target="modal1" class="btn modal-trigger border ">Login</button>
+          <button data-target="modal2" class="btn modal-trigger border ">Sign Up</button>
+        </div>
+      </div>
     </div>
-    
+
   </section>
   <!-- vista solo para mobile -->
   <section class="hide-on-large-only">
-    <h5> Inicia Sesión</h5>
+    <h5 class="center"> Iniciar Sesión</h5>
     <div class="row">
       <form class="col s12">
         <div class="row">
           <div class="input-field col s12">
+            <i class="material-icons prefix">email</i>
             <input id="email" type="email" class="validate">
             <label for="email">Email</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
+            <i class="material-icons prefix">lock_outline</i>
             <input id="password" type="password" class="validate">
             <label for="password">Password</label>
           </div>
         </div>
-        <div>
+        <div class="yoli-flex-container ">
           <a href="tercera.html" class="waves-effect waves-light btn">Ingresa</a>
-          <div class="conFaceb">
-            <i class="material-icons">remove</i>o con
+          <div class="conFaceb center yoli-flex-row">
+            <i class="material-icons">remove</i>o 
             <i class="material-icons">remove</i>
           </div>
           <a class="waves-effect waves-light btn">Facebook</a>
@@ -85,8 +83,8 @@
         </div>
       </form>
     </div>
-
   </section>
+  <!-- cierre  vista solo para mobile -->
 
   <!-- modal -->
   <!-- Modal Structure -->
@@ -109,9 +107,14 @@
             <div class="center-align">
               <button class="btn border">Ingresa</button>
             </div>
-            <div class="center-align"><p class="line"><span class="pd1">or</span></p></div>
+            <div class="center-align">
+              <p class="line">
+                <span class="pd1">or</span>
+              </p>
+            </div>
             <div class="center -align">
-              <button class="btn border #1565c0 blue darken-3"><span class="icon-facebook pd1"></span>Facebook</button>
+              <button class="btn border #1565c0 blue darken-3">
+                <span class="icon-facebook pd1"></span>Facebook</button>
             </div>
           </div>
         </div>
@@ -123,48 +126,47 @@
   <!-- modal Register -->
   <!-- Modal Structure -->
   <div id="modal2" class="modal">
-      <div class="modal-content">
-        <div class="box-login">
+    <div class="modal-content">
+      <div class="box-login">
+        <div class="row">
+          <h5 class="center-align">Join Us!</h5>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">First Name</label>
+          </div>
+          <div class="input-field col s12">
+            <i class="material-icons prefix">email</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">e-mail</label>
+          </div>
           <div class="row">
-            <h5 class="center-align">Join Us!</h5>
             <div class="input-field col s12">
-              <i class="material-icons prefix">account_circle</i>
-              <input id="icon_prefix" type="text" class="validate">
-              <label for="icon_prefix">First Name</label>
+              <i class="material-icons prefix">lock_outline</i>
+              <input id="icon_prefix" type="password" class="validate">
+              <label for="icon_prefix">Password</label>
             </div>
             <div class="input-field col s12">
-                <i class="material-icons prefix">email</i>
-                <input id="icon_prefix" type="text" class="validate">
-                <label for="icon_prefix">e-mail</label>
-              </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">lock_outline</i>
-                <input id="icon_prefix" type="password" class="validate">
-                <label for="icon_prefix">Password</label>
-              </div>
-              <div class="input-field col s12">
-                  <i class="material-icons prefix">lock</i>
-                  <input id="icon_prefix" type="password" class="validate">
-                  <label for="icon_prefix">Confirm Password</label>
-                </div>
-              
+              <i class="material-icons prefix">lock</i>
+              <input id="icon_prefix" type="password" class="validate">
+              <label for="icon_prefix">Confirm Password</label>
             </div>
-            
-              <div>
-                  <p class=center-align>
-                      <input type="checkbox" id="test5" />
-                      <label for="test5">Accept terms and conditions</label>
-                    </p>
-              </div>
-              <div class="center-align">
-                  
-                    <button class="btn border">Submit</button>
-                  </div>
+          </div>
+
+          <div>
+            <p class=center-align>
+              <input type="checkbox" id="test5" />
+              <label for="test5">Accept terms and conditions</label>
+            </p>
+          </div>
+
+          <div class="center-align">
+            <button class="btn border">Submit</button>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
 
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>

@@ -12,4 +12,12 @@ $(document).ready(function() {
   $('#tercera').click(function() {
     window.location.href = 'tercera.html';
   });
+
+  /** yolanda seccion de yoli *-* */
+
+  function time() {
+    $('#yoliSuper').delay(4000).fadeIn();
+    $('#yoliSuper1').delay(4001).fadeOut();
+}
+  time();
 });
