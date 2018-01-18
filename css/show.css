@@ -1,3 +1,35 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
 .in-block {
   display: inline-block;
 }
+
+.trailer{
+  text-align: center;
+  height: auto;
+}
+
+.mg20{
+  margin-top: 20px;
+}
+
+#text-search{ 
+  margin-bottom: 0;}
+
+.recomended{
+outline: 1px solid blue;
+height: auto;
+}
+
+.year, .star ,.time,.sinopsis {
+  outline: 1px solid red;
+height: 5vh;
+}
+
+.container-movies{
+  display: flex;
+  flex-wrap: wrap;
+}
+

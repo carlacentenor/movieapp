@@ -12,6 +12,23 @@
   text-align: center;
 }
 
+nav{
+  height: 9.5rem;
+}
+.logo {
+  height: 9.5rem;
+  width: 17rem; 
+ }
+
+.title{
+  color: black;
+  text-transform: capitalize;
+}
+
+.border-rad10{
+  border-radius: 10px;
+}
+
 .border {
   border-radius: 10px;
 }
@@ -48,6 +65,16 @@ height: 75vh;
 
 .pd1{
   margin: 0 10px;
+}
+
+
+footer{
+  background-color: rgb(32, 28, 28);
+  color: white;
+}
+
+footer p {
+  margin-bottom: 0;
 }
 
 

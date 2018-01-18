@@ -20,5 +20,5 @@ $(document).ready(function() {
   appiCall('krrish');
 
   // Initialize collapse button
-  $('.user').sideNav();
+ 
 });

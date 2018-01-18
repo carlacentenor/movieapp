@@ -6,77 +6,114 @@
   <title>Third view</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="../css/show.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-  <!-- Lateral menu -->
-  <ul id="slide-out" class="side-nav">
-    <li class="hide-on-large-only"><div class="user-view">
-      <div class="background">
-        <img src="../assets/images/fondo1.jpg" alt="background">
-      </div>
-      <a href="#!user"><img class="circle" src="../assets/images/dhadak-0a.jpg" alt="profile-pic"></a>
-      <a href="#!name"><span class="white-text name">John Doe</span></a>
-    </div></li>
-    <li><a href="#!"><i class="material-icons">add_circle_outline</i>My list</a></li>
-    <li><a href="#!"><i class="material-icons">notifications</i>Notifications</a></li>
-    <li><a href="#!"><i class="material-icons">people_outline</i>Community</a></li>
-    <li><a href="#!"><i class="material-icons">language</i>Language</a></li>
-    <li><a href="#!"><i class="material-icons">settings</i>Settings</a></li>
-    <li><a href="#!"><i class="material-icons">help_outline</i>Help</a></li>
-    <li><a href="#!"><i class="material-icons">keyboard_return</i>Log out</a></li>
-  </ul>  <!-- lateral menu ends-->
-  <nav>
-    <div class="nav-wrapper">
-      <ul class="left">
-        <a href="#" data-activates="slide-out" class="user" >
-          <img src="../assets/images/" alt="profile-picture" class="circle hide-on-small-only">
-          <i class="material-icons  hide-on-large-only">menu</i>
-        </a>
-      </ul>
-               
-      <div class="brand-logo center hide-on-small-only">
-        <img src="../assets/images/logo_BP.png" alt="logo bollywood planet" class="logo-desktop">
-      </div>
-
-      <ul class="right">
-        <li>
-          <i class="material-icons">search</i>
-        </li>
-        <li>
-          <a href="https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news" target="_blank">News</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="#f9fbe7 lime lighten-5">
+        <div class="nav-wrapper">
+          
+         <img class="logo" src="../assets/images/logo_BP2.png">
+          <a href="#" data-activates="slide-out" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <input class="in-block" type="text" id="text-search">
+            </li>
+            <li>
+              <a class="btn-search">
+                <i class="material-icons">search</i>
+              </a>
+            </li>
+            <li>
+              <a href="sass.html">
+                <i class="material-icons">library_books</i>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-button name-user" href="#!" data-activates="dropdown1">
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+            <ul id="dropdown1" class="dropdown-content">
+              <li>
+                <a href="#!">one</a>
+              </li>
+              <li>
+                <a href="#!">two</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="#!">three</a>
+              </li>
+            </ul>
+    
+          </ul>
+          <ul id="slide-out" class="side-nav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="../assets/images/fondo4.jpg">
+                </div>
+                <a href="#!user">
+                  <img class="circle img-user" src="">
+                </a>
+                <a href="#!name">
+                  <span class="white-text name name-user"></span>
+                </a>
+                <a href="#!email">
+                  <span class="white-text email email-user"></span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">home</i>Home</a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">check_circle</i>My List</a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">notifications</i>Notiications</a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">people</i>Community</a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">language</i>Languages</a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">settings</i>Settings</a>
+            </li>
+            <li>
+              <a href="#!">
+                <i class="material-icons">settings_power</i>Log Out</a>
+            </li>
+    
+          </ul>
+        </div>
+      </nav>
   <!-- Genre section -->
   <section>
-    <div class="container">
-      <div class="row">
-        <h4>Specific Genre</h4>
+    
+      <h5 class="title-genre"></h5>
+      <div class="container-movies">
+        
       </div>
-
-      <div class="row">
-        <div class="col l3 col s12"> 
-          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
-        </div>
-        <div class="col l3 col s12"> 
-          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
-        </div>
-        <div class="col l3 col s12"> 
-          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
-        </div>
-        <div class="col l3 col s12"> 
-          <img src="../assets/docs/idea3.jpg" alt="" class="responsive-img">
-        </div>
-      </div>
-    </div>
+    
   </section>
 
 <!-- Source -->
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
-  <script src="../js/app.js"></script>
+<script src="../js/data.js"></script>
+<script src="../js/genre.js"></script>
 </body>
 
 </html>

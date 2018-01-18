@@ -8,70 +8,161 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/show.css">
 </head>
+
 <body>
-    <nav>
+  <nav class="#f9fbe7 lime lighten-5">
     <div class="nav-wrapper">
-      <div><img src="" alt=""></div>
-      <a href="#!" class="brand-logo">Planet Bollywood</a>
-      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      
+     <img class="logo" src="../assets/images/logo_BP2.png">
+      <a href="#" data-activates="slide-out" class="button-collapse">
+        <i class="material-icons">menu</i>
+      </a>
       <ul class="right hide-on-med-and-down">
-        <li><input class="in-block" type="text"></li>
-        <li><a><i class="material-icons">search</i></a></li>
-        <li><a href="sass.html"><i class="material-icons">library_books</i></a></li>
-        <li><a class="dropdown-button name-user" href="#!" data-activates="dropdown1"><i class="material-icons right">arrow_drop_down</i></a></li>
+        <li>
+          <input class="in-block" type="text" id="text-search">
+        </li>
+        <li>
+          <a class="btn-search">
+            <i class="material-icons">search</i>
+          </a>
+        </li>
+        <li>
+          <a href="sass.html">
+            <i class="material-icons">library_books</i>
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-button name-user" href="#!" data-activates="dropdown1">
+            <i class="material-icons right">arrow_drop_down</i>
+          </a>
+        </li>
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">one</a></li>
-            <li><a href="#!">two</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">three</a></li>
+          <li>
+            <a href="#!">one</a>
+          </li>
+          <li>
+            <a href="#!">two</a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a href="#!">three</a>
+          </li>
         </ul>
-     
+
       </ul>
       <ul id="slide-out" class="side-nav">
-          <li><div class="user-view">
-              <div class="background">
-                <img src="../assets/images/fondo4.jpg">
-              </div>
-              <a href="#!user"><img class="circle" src=" "></a>
-              <a href="#!name"><span class="white-text name name-user"></span></a>
-              <a href="#!email"><span class="white-text email"></span></a>
-            </div></li>
-            <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
-            <li><a href="#!"><i class="material-icons">check_circle</i>My List</a></li>
-            <li><a href="#!"><i class="material-icons">notifications</i>Notiications</a></li>
-            <li><a href="#!"><i class="material-icons">people</i>Community</a></li>
-            <li><a href="#!"><i class="material-icons">language</i>Languages</a></li>
-            <li><a href="#!"><i class="material-icons">settings</i>Settings</a></li>
-            <li><a href="#!"><i class="material-icons">settings_power</i>Log Out</a></li>
-            
+        <li>
+          <div class="user-view">
+            <div class="background">
+              <img src="../assets/images/fondo4.jpg">
+            </div>
+            <a href="#!user">
+              <img class="circle img-user" src="">
+            </a>
+            <a href="#!name">
+              <span class="white-text name name-user"></span>
+            </a>
+            <a href="#!email">
+              <span class="white-text email email-user"></span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">home</i>Home</a>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">check_circle</i>My List</a>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">notifications</i>Notiications</a>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">people</i>Community</a>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">language</i>Languages</a>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">settings</i>Settings</a>
+        </li>
+        <li>
+          <a href="#!">
+            <i class="material-icons">settings_power</i>Log Out</a>
+        </li>
+
       </ul>
     </div>
   </nav>
   <section>
+    <div class="row mg20">
+      <div class="trailer col s8">
+        <img class=" img-movie" src="" alt="">
+   
 
-<div class="trailer">
-
-
+      </div>
+      <div class="recomended col s4">
+        <div class="row">
+<div class="col s2">
+  <img src="" alt="">
 </div>
-<div class="info-movie">
-<h5 class="title-movie"></h5>
-<p class="year"></p>
-<p class="star"></p>
-<p class="time"></p>
-<a href="">add</a>
-</div>
-<div class="comment">
+<div class="col s10"></div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="info-movie col s6">
+        <h5 class="title-movie"></h5>
+        <p class="year"></p>
+        <p class="star"></p>
+        <p class="time"></p>
+        <p class="genre-movie"></p>
+        <div class="sinopsis-movie"></div>
+        <a href="">add</a>
+      </div>
+      <div class="extra-info col s6">
+        <p>Actors :</p>
+        <p class="actors-movie"></p>
+        <p>Musicals</p>
+      </div>
+    </div>
 
-</div>
+    <div class="comment">
+      <div class="box-user-comment">
+        <img class="circle" src="">
+        <input type="text">
+      </div>
+
+
+    </div>
   </section>
+<footer>
+<p>Follows us</p>
+<div class="icon-social">
 
   
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+</div>
+<p>Made by</p>
+<p>The Power Puff Girls</p>
+</footer>
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
-  <script src="../js/show.js"></script>
+  <script src="../js/data.js"></script>
+
+  
   <script src="../js/register.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/show.js"></script>
 </body>
 
 </html>
