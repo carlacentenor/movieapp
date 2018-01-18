@@ -184,3 +184,7 @@ footer p {
     height: 30%;
 }
 
+.footer-letter {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 27px;
+}
