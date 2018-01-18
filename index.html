@@ -1,22 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Planet Bollywood</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+  <link rel="stylesheet" href="assets/icons/icomoon/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <h1 class="title-movie"></h1>
-  <img class="img-movie" src="" alt="">
-  <div><p class="sinopsis-movie"></p></div>
-  <div><p class="actors-movie"></p></div>
-  <div><p class="genre-movie"></p></div>
-  <div>
-    <p class="release-year"></p>
+<header class="lime lighten-5 center-align"><img class="logo" src="assets/images/logo_BP2.png" alt="logo"></header>
+  
+
+  <section class="hide-on-small-only  bg-principal">
+    <div class="opacity flex">
+    <div class="row">
+      <div class="col s12">
+          
+              <div class="phrase">
+                <p>The world's largest community of Bollywood fans</p>
+                <p> Movies, musicals, events and more.</p>
+              </div>
+              
+              <div class="box-buttons">
+              
+                <button data-target="modal1"  class="fvbtns btn modal-trigger border purple ">Log In</button>
+                <button data-target="modal2" class="fvbtns btn modal-trigger border purple">Sign Up</button>
+              </div>
+        
+                  </div>
+    </div>
   </div>
+  </section>
+  
+
+  <!-- modal -->
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal lime lighten-5">
+    <div class="modal-content bg-modal">
+      <div class="box-login">
+        <h5 class="center-align black-text title-modal">Welcome Home!</h5>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_email" type="text" class="email-login">
+            <label for="icon_email">Email</label>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">lock</i>
+              <input id="icon_pass" type="password" class="password-login">
+              <label for="icon_pass">Password</label>
+            </div>
+            <div class="center-align">
+              <button class="btn border amber" id="btn-enter">Let´s Go!</button>
+            </div>
+            <div class="center-align"><p class="line"><span class="pd1">or Log In with</span></p></div>
+            <div class="center-align">
+              <button class="btn border #1565c0 blue darken-3" id="btn-facebook"><span class="icon-facebook pd1"></span>Facebook</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- modal Register -->
+  <!-- Modal Structure -->
+  <div id="modal2" class="modal">
+      <div class="modal-content bg-modal">
+        <div class="box-login">
+          <div class="row">
+            <h5 class="center-align title-modal">Join Us!</h5>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_name" type="text" class="name-register">
+              <label for="icon_name">Name</label>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="icon_mail" type="text" class="email-register">
+                <label for="icon_mail">E-mail</label>
+              </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">lock_outline</i>
+                <input id="icon_pass-r" type="password" class="password-register">
+                <label for="icon_pass-r">Password</label>
+              </div>
+              <div class="input-field col s12">
+                  <i class="material-icons prefix">lock</i>
+                  <input id="icon_con" type="password" class="confirm-register">
+                  <label for="icon_con">Confirm Password</label>
+                </div>
+              
+            </div>
+            
+              <div>
+                  <p class=center-align>
+                      <input type="checkbox" id="test5" class="checkbox-term" >
+                      <label for="test5">I accept terms and conditions</label>
+                    </p>
+              </div>
+              <div class="center-align">
+                <button class="btn border" id="btn-submit" disabled>Submit</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
   <script src="vendors/js/jquery-3.2.1.min.js"></script>
+  <script src="vendors/materialize/js/materialize.min.js"></script>
   <script src="js/app.js"></script>
- 
 </body>
+
 </html>
