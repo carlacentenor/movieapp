@@ -131,6 +131,7 @@ $(document).ready(function() {
 
     firebase.auth().onAuthStateChanged(user => {
       if (user) {
+        localStorage.uid = user.uid;
         $(location).attr('href', 'home.html');
       }
     });
@@ -178,7 +179,9 @@ $(document).ready(function() {
           uid: user.uid,
           profilePhoto: '../assets/images/user.png',
         }).then(user => {
+          
           console.log('Usuario Registrado');
+          
           window.location.href = 'register.html';
         });
       } else {
@@ -206,6 +209,7 @@ $(document).ready(function() {
 
       }).then(
         user => {
+          localStorage.uid = user.uid;
           $(location).attr('href', 'home.html');
         });
     }).catch(function(error) {
@@ -236,6 +240,6 @@ $(document).ready(function() {
   function time() {
     $('#yoliSuper').delay(4000).fadeIn();
     $('#yoliSuper1').delay(4001).fadeOut();
-}
+  }
   time();
 });

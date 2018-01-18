@@ -32,6 +32,12 @@ nav{
   border-radius: 10px;
 }
 
+.container-movies{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 .border {
   border-radius: 10px;
 }
