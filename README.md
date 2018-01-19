@@ -1,7 +1,9 @@
-# Reto Hackaton 
+# Reto Hackaton: "Bollywood Planet"
 ---
 
-## Dia 1
+## Objetivo
+
+Crear un portal de películas inspirado en Bollywood, teniendo como principal función el filtro por géneros.
 
 ## Planificación 
 El primer día realizamos Brainstorming para obtener la mayor cantidad de ideas posibles.
@@ -47,7 +49,7 @@ Queríamos que nuestra marca evoque emoción, entretenimiento, diversión, color
 
 Y luego de hacer varios testeos y versiones, finalmente éste fue el elegido.
 
-Repasemos los significados de sus colores :
+Repasemos los significados de sus colores:
 
 ### Naranja:
 El naranja combina la energía del rojo con la felicidad del amarillo.
@@ -82,7 +84,7 @@ Para validar nuestras ideas referentes al diseño del portal y del logo, realiza
 
 ### Preguntas:
 
-#### Usuario 1: Adrian Elias, 22 años, estudiante.
+#### Usuario 1: Adrian Elias, 22 años, Estudiante.
 
 1. ¿Usarias la plataforma para ver tu siguiente película hindú?
 
@@ -94,7 +96,7 @@ Si.
 3. ¿Qué sugieres para mejorar tu experiencia en nuestro portal?
 Que tenga variedad de géneros, que el tiempo de carga sea corto y no redireccione a otras páginas de publicidad, que se pueda recordar cuentas y que haya opción de ver la película en pantalla completa.
 
-#### Usuario 2: Juan Llontop, 30, trabajador independiente.
+#### Usuario 2: Juan Llontop, 30, Trabajador independiente.
 
 1. ¿Qué opinas del logo de la marca (imagotipo)?
 Es llamativo, me gustan los colores ya que pienso en algo cálido, me produce una sensación de felicidad y bienestar, y el morado curiosidad.
@@ -102,12 +104,12 @@ Es llamativo, me gustan los colores ya que pienso en algo cálido, me produce un
 2. ¿Qué piensas cuándo te digo Bollywood Planet?
 Que es una marca acerca de todo lo referido a Bollywood.
 
-#### Usuario 3: Mariela Garcia , 27, ingeniera ambiental
+#### Usuario 3: Mariela García, 27, Ingeniera ambiental
 
 1. ¿Qué opinas del logo de la marca (imagotipo)?
 Me gusta la combinación, tiene iluminación y el mandala es lindo.
 
-## Sketch Version 2: 
+## Sketch Versión 2: 
 
 ### Versión Mobile:
 
