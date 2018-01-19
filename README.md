@@ -80,9 +80,9 @@ Combinado con colores vivos y poderosos como el naranja o el rojo, produce un ef
 
 Para validar nuestras ideas referentes al diseño del portal y del logo, realizamos preguntas a fanáticos del cine Bollywood (próximos usuarios).
 
-### Preguntas :
+### Preguntas:
 
-#### Usuario 1 : Adrian Elias, 22 años, estudiante.
+#### Usuario 1: Adrian Elias, 22 años, estudiante.
 
 1. ¿Usarias la plataforma para ver tu siguiente película hindú?
 
@@ -94,7 +94,7 @@ Si.
 3. ¿Qué sugieres para mejorar tu experiencia en nuestro portal?
 Que tenga variedad de géneros, que el tiempo de carga sea corto y no redireccione a otras páginas de publicidad, que se pueda recordar cuentas y que haya opción de ver la película en pantalla completa.
 
-#### Usuario 2 : Juan Llontop, 30, trabajador independiente.
+#### Usuario 2: Juan Llontop, 30, trabajador independiente.
 
 1. ¿Qué opinas del logo de la marca (imagotipo)?
 Es llamativo, me gustan los colores ya que pienso en algo cálido, me produce una sensación de felicidad y bienestar, y el morado curiosidad.
@@ -102,7 +102,7 @@ Es llamativo, me gustan los colores ya que pienso en algo cálido, me produce un
 2. ¿Qué piensas cuándo te digo Bollywood Planet?
 Que es una marca acerca de todo lo referido a Bollywood.
 
-#### Usuario 3 : Mariela Garcia , 27, ingeniera ambiental
+#### Usuario 3: Mariela Garcia , 27, ingeniera ambiental
 
 1. ¿Qué opinas del logo de la marca (imagotipo)?
 Me gusta la combinación, tiene iluminación y el mandala es lindo.
@@ -117,25 +117,25 @@ Me gusta la combinación, tiene iluminación y el mandala es lindo.
 
 ![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
 
-# Organizacion
-## dia uno: 
+# Organización:
+## Día uno: 
 * Claudia: Investigación sobre Bollywood y colores de Hindu
 * Carla: Investigacion sobre API 
 * Yolanda: Avances del flujo de ventanas
 * Yasmin: Testeo a cierto grupo de personas para filtrar información.
-## dia dos:
+## Día dos:
 * Claudia: Diseño de las ventanas con los colores con sus significados
 * Carla: Avances sobre jalar informacion de la api
 * Yolanda: Maquetado de las ventanas
 * Yasmin: Data JSON.
-## dia tres:
+## Día tres:
 * Claudia: Diseño del logo
 * Carla: funcionabilidad
 * Yolanda: arreglos de maqueteo y avances del readme
 * Yasmin: maquetado de vistas y funcionalidad de posteo.
 
 ## Realizado por Squad Powerpuff - Girls.
-## Miembros : 
+## Miembros: 
 * Centeno Ramos, Carla
 * Mattos Conislla,Yasmin
 * Zarate Cordova,Claudia
