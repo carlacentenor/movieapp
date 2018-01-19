@@ -21,11 +21,7 @@ Investigando en otras páginas web, descubrimos que hay muy pocos portales espec
 * También nos sirvio para establecer que tenemos dos tipos de usuarios:
   * Fanáticos de Bollywood
   * Usuario que sólo entra por recomendación.
-
-![Con titulo](assets/docs/idea3.jpg "titulo")
 ![Con titulo](assets/docs/idea4.jpg "titulo")
-
-
 ## Sketch
 
 ### 1.- Primer boceto 
@@ -34,7 +30,7 @@ Investigando en otras páginas web, descubrimos que hay muy pocos portales espec
 ![Con titulo](assets/docs/vista2.jpg "titulo")
 
 ## Versión mobile:
-![Con titulo](assets/docs/mobile1.jpg "titulo")
+![Con titulo](assets/docs/mobile6.jpg "titulo")
 
 
 ## Elección del nombre del Portal y Diseño del Imagotipo:
@@ -73,10 +69,7 @@ El negro representa el poder, la elegancia, la formalidad, prestigio.
 En una página web puede dar imágen de elegancia, y aumenta la sensación de profundidad y perspectiva. 
 Combinado con colores vivos y poderosos como el naranja o el rojo, produce un efecto vigoroso.
 
-![Con titulo](assets/docs/Gold-Color.jpg "titulo")
-![Con titulo](assets/docs/color_tomato.png "titulo")
-![Con titulo](assets/docs/color_purpura.jpg "titulo")
-![Con titulo](assets/docs/color-negro.png "titulo")
+![Con titulo](assets/docs/color-negro.jpg "titulo")
 
 ## Testeo en Usuarios:
 
@@ -113,11 +106,17 @@ Me gusta la combinación, tiene iluminación y el mandala es lindo.
 
 ### Versión Mobile:
 
-![Con titulo](assets/docs/vista2-mobile.jpg "titulo")
+![Con titulo](assets/docs/favoritos.png "titulo")
+![Con titulo](assets/docs/generos.png "titulo")
+![Con titulo](assets/docs/home.png "titulo")
+![Con titulo](assets/docs/login.png "titulo")
+![Con titulo](assets/docs/pelicula.png "titulo")
 
 ### Versión Desktop:
 
-![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
+
+
+
 
 # Organización:
 ## Día uno: 
@@ -127,14 +126,20 @@ Me gusta la combinación, tiene iluminación y el mandala es lindo.
 * Yasmin: Testeo a cierto grupo de personas para filtrar información.
 ## Día dos:
 * Claudia: Diseño de las ventanas con los colores con sus significados
-* Carla: Avances sobre jalar informacion de la api
-* Yolanda: Maquetado de las ventanas
-* Yasmin: Data JSON.
+* Carla: Avances sobre jalar informacion de la API.
+* Yolanda: Maquetado de las ventanas.
+* Yasmin: Data JSON con los genéros de nuestras peliculas.
 ## Día tres:
-* Claudia: Diseño del logo
-* Carla: funcionabilidad
-* Yolanda: arreglos de maqueteo y avances del readme
+* Claudia: Diseño del logo.
+* Carla: funcionabilidad.
+* Yolanda: arreglos de maqueteo y avances del readme.
 * Yasmin: maquetado de vistas y funcionalidad de posteo.
+## Día cuatro:
+* Claudia: Termino del slider vista mobile.
+* Carla: Arreglo problema de login de Facebook.
+* Yolanda: Termino del Readme.
+* Yazmin: agregando mas Filmes a nuestro JSON.
+
 
 ## Realizado por Squad Powerpuff - Girls.
 ## Miembros: 
