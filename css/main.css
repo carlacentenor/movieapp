@@ -1,12 +1,6 @@
-*{
+* {
   font-family: 'Raleway', sans-serif;
- 
 }
-
-body {
-  background-color: 
-}
-
 
 .flex {
   display: flex;
@@ -21,26 +15,26 @@ body {
   padding-top: 0;
 }
 
-nav{
+nav {
   height: 9.5rem;
   color: black;
 }
 
 .logo {
   height: 9.5rem;
-  width: 17rem; 
- }
+  width: 17rem;
+}
 
-.title{
+.title {
   color: black;
   text-transform: capitalize;
 }
 
-.border-rad10{
+.border-rad10 {
   border-radius: 10px;
 }
 
-.container-movies{
+.container-movies {
   display: flex;
   flex-wrap: wrap;
 }
@@ -53,18 +47,18 @@ nav{
   border-radius: 10px;
 }
 
-.box-buttons{
+.box-buttons {
   margin: 2rem;
-  margin-top:4rem; 
+  margin-top: 4rem;
 }
 
-.phrase{
+.phrase {
   font-size: 30px;
   line-height: 55px;
   padding-bottom: 20px;
 }
 
-.bg-principal{
+.bg-principal {
   background-image: url('../assets/images/portada3.jpg');
   background-position: bottom center;
   background-size: cover;
@@ -74,10 +68,10 @@ nav{
 
 .logo {
   height: 9.5rem;
-  width: 17rem; 
- }
+  width: 17rem;
+}
 
-.opacity{
+.opacity {
   color: white;
   background: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -88,13 +82,14 @@ nav{
   background-color: transparent !important;
 }
 
-.title{
+.title {
   color: black;
   text-transform: capitalize;
 }
-.container-movies{
- display: flex;
- flex-wrap: wrap;
+
+.container-movies {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contain {
@@ -105,25 +100,27 @@ nav{
   border-radius: 10px;
 }
 
-.box-buttons{
+.box-buttons {
   margin: 1em;
 }
 
-.phrase{
+.phrase {
   font-size: 25px;
 }
 
-.hv-header{
+.hv-header {
   height: 20vh;
 }
-.bg-principal{
+
+.bg-principal {
   background-image: url('../assets/images/portada3.jpg');
   background-position: bottom center;
   background-size: cover;
   height: 80vh;
 }
 
-.line::after , .line::before {
+.line::after,
+.line::before {
   content: '';
   width: 10%;
   height: 1px;
@@ -135,17 +132,17 @@ nav{
   background-image: url('../assets/images/fondo2.jpeg');
 }
 
-.title-modal{
+.title-modal {
   font-family: 'Supermercado One', cursive !important;
   font-size: 35px;
   padding-left: 1rem;
 }
 
-.pd1{
+.pd1 {
   margin: 0 10px;
 }
 
-footer{
+footer {
   background-color: rgb(32, 28, 28);
   color: white;
   margin-top: 4.4em;
@@ -155,7 +152,7 @@ footer p {
   margin-bottom: 0;
 }
 
-.imgDesktop{
+.imgDesktop {
   background-image: url('../assets/docs/idea3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,21 +162,23 @@ footer p {
 }
 
 .hola {
-  background: rgba(15, 15, 15, 0.4); 
+  background: rgba(15, 15, 15, 0.4);
   height: 100vh;
 }
- /* Vista home */
+
+
+/* Vista home */
 
 .cream-nav {
-  height: 9.5rem; 
+  height: 9.5rem;
 }
 
 .generos img {
-    width: 20%;
-    height: 30%;
+  width: 20%;
+  height: 30%;
 }
 
-.wid-img{
+.wid-img {
   width: 15%;
   position: relative;
   top: 1.5em;
@@ -190,10 +189,10 @@ nav i {
   color: purple;
 }
 
-.purple-1{
+.purple-1 {
   background-color: purple;
 }
 
-.genre{
+.genre {
   margin-bottom: 1em;
 }
