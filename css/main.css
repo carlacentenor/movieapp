@@ -168,14 +168,12 @@ footer p {
 
 .user-box {
   margin-top: 1em;
-  background-color: #e1bee7;
+  background-image: url(../assets/images/fondo3.jpg);
   border-radius: 14px;
   padding: 1em;
 }
 
-
 /* Vista home */
-
 .cream-nav {
   height: 9.5rem;
 }

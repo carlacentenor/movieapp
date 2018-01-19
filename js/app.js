@@ -10,12 +10,10 @@ $(document).ready(function() {
   };
   firebase.initializeApp(config);
   
-  
   // variables Login
   
   var emailLogin = $('.email-login');
   var passwordLogin = $('.password-login');
-  
   
   // Register
   
@@ -37,7 +35,6 @@ $(document).ready(function() {
   var validateChek = false;
   var validateConfirmPass = false;
   
-  
   emailRegister.on('keyup', function(event) {
     var EMAILUSER = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
   
@@ -48,7 +45,6 @@ $(document).ready(function() {
       inactiveRegister();
     }
   });
-  
   
   passwordRegister.on('keyup', function(event) {
     if (passwordRegister.val().length >= 6) {
@@ -68,7 +64,6 @@ $(document).ready(function() {
     }
   });
   
-  
   nameRegister.on('keyup', function(event) {
     if (nameRegister.val()) {
       validateName = true;
@@ -78,7 +73,6 @@ $(document).ready(function() {
     }
   });
   
-  
   check.on('click', function(event) {
     if (event.target.checked) {
       validateChek = true;
@@ -87,7 +81,6 @@ $(document).ready(function() {
       inactiveRegister();
     }
   });
-  
   
   // Login
   emailLogin.on('keyup', function(event) {
@@ -137,9 +130,7 @@ $(document).ready(function() {
     });
   });
   
-  
   // Funciones de validadión
-  
   function validateUser() {
     if (validateEmail && validatePassword) {
       btnEnter.attr('disabled', false);
@@ -150,7 +141,6 @@ $(document).ready(function() {
     btnEnter.attr('disabled', 'disabled');
   }
   
-  
   function validateRegister() {
     if (validateEmail && validatePassword && validateName && validateConfirmPass && validateChek) {
       btnSubmit.attr('disabled', false);
@@ -160,7 +150,6 @@ $(document).ready(function() {
   function inactiveRegister() {
     btnSubmit.attr('disabled', 'disabled');
   }
-  
   
   btnSubmit.click(function() {
     firebase.auth().createUserWithEmailAndPassword(emailRegister.val(), passwordRegister.val())
@@ -187,11 +176,8 @@ $(document).ready(function() {
       }
     });
   });
-  
-  
   // Login por facebook
-  
-  
+
   var providerFacebook = new firebase.auth.FacebookAuthProvider();
   btnFacebook.on('click', function() {
     firebase.auth().signInWithPopup(providerFacebook).then(function(result) {
