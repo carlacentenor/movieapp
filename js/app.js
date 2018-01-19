@@ -180,7 +180,7 @@ $(document).ready(function() {
           profilePhoto: '../assets/images/user.png',
         }).then(user => {
           console.log('Usuario Registrado');
-          window.location.href = 'register.html';
+          window.location.href = 'views/home.html';
         });
       } else {
         console.log('Error al registrar');
@@ -226,7 +226,7 @@ $(document).ready(function() {
   
   $('.close').click(function() {
     firebase.auth().signOut().then(function() {
-      $(location).attr('href', 'register.html');
+      $(location).attr('href', '../index.html');
     }).catch(function(error) {
       
     });

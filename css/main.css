@@ -1,8 +1,10 @@
 *{
   font-family: 'Raleway', sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+ 
+}
+
+body {
+  background-color: 
 }
 
 
@@ -66,7 +68,7 @@ nav{
   background-image: url('../assets/images/portada3.jpg');
   background-position: bottom center;
   background-size: cover;
-  height: 77vh;
+  height: 83.2vh;
   text-align: center;
 }
 
@@ -76,6 +78,8 @@ nav{
  }
 
 .opacity{
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: inherit;
 }
@@ -109,11 +113,14 @@ nav{
   font-size: 25px;
 }
 
+.hv-header{
+  height: 20vh;
+}
 .bg-principal{
   background-image: url('../assets/images/portada3.jpg');
   background-position: bottom center;
   background-size: cover;
-  height: 75vh;
+  height: 80vh;
 }
 
 .line::after , .line::before {
@@ -181,4 +188,12 @@ footer p {
 
 nav i {
   color: purple;
+}
+
+.purple-1{
+  background-color: purple;
+}
+
+.genre{
+  margin-bottom: 1em;
 }

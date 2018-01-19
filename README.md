@@ -113,7 +113,6 @@ Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
 
 ![Con titulo](assets/docs/vista2-mobile.jpg "titulo")
 
-
 ### Versión Desktop:
 
 ![Con titulo](assets/docs/vista1-desktop.jpg "titulo")

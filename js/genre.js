@@ -13,7 +13,7 @@ $(document).ready(function() {
   for (j = 0 ; j < arrayGenre.length ;j++) {
     var mov = arrayGenre[j];
     $.getJSON('http://www.omdbapi.com/?t=' + encodeURI(mov) + '&apikey=1d12799f').then(function(response) {
-      containerGenres.append('<div class="contain" data-movie="' + response.Title + '" ><div><img  src="' + response.Poster + '" ></div></div>');
+      containerGenres.append('<div class="contain center-align-" data-movie="' + response.Title + '" ><div><img  src="' + response.Poster + '" ></div></div>');
     });
   }
 
