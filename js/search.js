@@ -13,7 +13,7 @@ $(document).ready(function() {
       var name = user.displayName;
       var email = user.email;
       var photoUrl = user.photoURL;
-
+      localStorage.uid = uid;
       if (name === null) {
         var database = firebase.database();
         var reference = database.ref('users');
@@ -36,7 +36,7 @@ $(document).ready(function() {
         });
       } else {
         $('.user-name').text(name);
-
+        localStorage.uid = uid;
         $('.img-user').attr('src', photoUrl);
       }
     } else {
