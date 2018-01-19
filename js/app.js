@@ -118,7 +118,7 @@ $(document).ready(function() {
         var errorCode = error.code;
         var errorMessage = error.message;
         if (errorCode || errorMessage) {
-          alert('contraseña y/o email incorrecto');
+         
         }
       });
   
@@ -193,7 +193,6 @@ $(document).ready(function() {
         
       }).then(
         user => {
-         
           $(location).attr('href', 'views/home.html');
         });
     }).catch(function(error) {

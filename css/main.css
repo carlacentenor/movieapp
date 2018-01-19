@@ -184,7 +184,11 @@ footer p {
 }
 
 .wid-img {
-  width: 15%;
+  width: 4em;
+  height: 4em;
+  border-radius: 100px;
+
+
   position: relative;
   top: 1.5em;
   left: 1.5em;
@@ -200,4 +204,9 @@ nav i {
 
 .genre {
   margin-bottom: 1em;
+}
+
+.img-box{
+  border-radius: 50px;
+
 }

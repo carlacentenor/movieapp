@@ -28,7 +28,6 @@ $(document).ready(function() {
               $('.email-user').text(id.name);
               $('.img-user').attr('src', id.profilePhoto);
               localStorage.uid = id.uid;
-              console.log(id.uid);
             }
           }
         }, function(objetoError) {
@@ -84,9 +83,9 @@ $(document).ready(function() {
     localStorage.genre = selectionGenre;
     window.location.href = 'tercera.html';
   });
-/** funcionabilidad del input de la ventana home y tercera ? */
+  /** funcionabilidad del input de la ventana home y tercera ? */
   $('.btn-search1').click(function() {
-    var searchOn = $('#text-search2').val();
+    var searchOn = $('#text-search2').val().toLowerCase();
     for (var i = 0; i < movies.length; i++) {
       if (searchOn === movies[i].title) {
         localStorage.movie = movies[i].title;

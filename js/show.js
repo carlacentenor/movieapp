@@ -30,6 +30,5 @@ $(document).ready(function() {
       title: localStorage.movie,
     };
     referenciaUser.push(movie);
-
   });
 });
