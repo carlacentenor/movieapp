@@ -6,12 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Planet Bollywood</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
 
-<nav class="#f9fbe7 lime lighten-5">
+<body class="#f9fbe7 lime lighten-5">
+  <nav class="#f9fbe7 lime lighten-5">
     <div class="nav-wrapper">
 <ul class="left">
   <img class="circle img-user wid-img hide-on-med-and-down" src="">
@@ -22,11 +24,11 @@
       </a>
       <ul class="right hide-on-med-and-down">
         <li>
-          <input class="in-block" type="text" id="text-search">
+          <input class="in-block" type="text" id="text-search2" value="">
         </li>
-        <li>
-          <a class="btn-search">
-            <i class="material-icons">search</i>
+        <li class="">
+          <a>
+            <i class="material-icons" id="search1">search</i>
           </a>
         </li>
         <li>
@@ -103,15 +105,14 @@
     </div>
   </nav>
 
-<body class="">
-  
 
 
+  <h1 class="center title-modal">My Favorites Movies</h1>
+  <!-- Contenedor de películas-->
+  <div class="movie-favorite container-movies">
 
-<h1>My Favorites Movies</h1>
-<!-- Contenedor de películas-->
-<div class="movie-favorite container-movies">
 
+  </div>
 
 </div>
 <footer class="page-footer purple" id="bg-footer">
@@ -146,8 +147,8 @@
 
 
 
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
 
   <script src="../js/app.js"></script>

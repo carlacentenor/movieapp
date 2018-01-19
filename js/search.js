@@ -82,7 +82,7 @@ $(document).ready(function() {
     localStorage.genre = selectionGenre;
     window.location.href = 'tercera.html';
   });
-
+/** funcionabilidad del input de la ventana home y tercera ? */
   $('.btn-search1').click(function() {
     var searchOn = $('#text-search2').val();
     for (var i = 0; i < movies.length; i++) {

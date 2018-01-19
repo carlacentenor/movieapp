@@ -28,24 +28,12 @@ Investigando en otras páginas web, descubrimos que hay muy pocos portales espec
 
 ### 1.- Primer boceto 
 ## Versión desktop :
-![Con titulo](assets/docs/vista1.jpg "titulo")
+
 ![Con titulo](assets/docs/vista2.jpg "titulo")
-![Con titulo](assets/docs/vista3User.jpg "titulo")
-![Con titulo](assets/docs/vista3-nouser.jpg "titulo")
-![Con titulo](assets/docs/vista4.jpg "titulo")
-![Con titulo](assets/docs/vista5.jpg "titulo")
 
 ## Versión mobile :
 ![Con titulo](assets/docs/mobile1.jpg "titulo")
-![Con titulo](assets/docs/mobile2.jpg "titulo")
-![Con titulo](assets/docs/mobile3.jpg "titulo")
-![Con titulo](assets/docs/mobile4.jpg "titulo")
-![Con titulo](assets/docs/mobile5.jpg "titulo")
-![Con titulo](assets/docs/mobile6.jpg "titulo")
-![Con titulo](assets/docs/mobile7.jpg "titulo")
-![Con titulo](assets/docs/mobile8.jpg "titulo")
-![Con titulo](assets/docs/footer.jpg "titulo")
-![Con titulo](assets/docs/generos.jpg "titulo")
+
 
 ## Eleccion del nombre del Portal y Diseño del Imagotipo:
 
@@ -125,25 +113,36 @@ Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
 
 ![Con titulo](assets/docs/vista1-mobile.jpg "titulo")
 ![Con titulo](assets/docs/vista2-mobile.jpg "titulo")
-![Con titulo](assets/docs/vista3-mobile.jpg "titulo")
-![Con titulo](assets/docs/vista4-mobile.jpg "titulo")
-![Con titulo](assets/docs/menu-hamb-mobile.jpg "titulo")
-![Con titulo](assets/docs/vista5-mobile.jpg "titulo")
-![Con titulo](assets/docs/vista6-mobile.jpg "titulo")
-![Con titulo](assets/docs/vista7-mobile.jpg "titulo")
-![Con titulo](assets/docs/vista8-footer.jpg "titulo")
+
 
 ### Versión Desktop:
 
 ![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
-![Con titulo](assets/docs/modals_desktop.jpg "titulo")
-![Con titulo](assets/docs/vista2-desktop.jpg "titulo")
-![Con titulo](assets/docs/vista2-desktop-hamb.jpg "titulo")
-![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
-![Con titulo](assets/docs/vista3-desktop.jpg "titulo")
-![Con titulo](assets/docs/vista4-desktop.jpg "titulo")
-![Con titulo](assets/docs/vista5-desktop.jpg "titulo")
-![Con titulo](assets/docs/vista8-footer.jpg "titulo")
-
+# Organizacion
+## dia uno: 
+* Claudia: Investigación sobre Bollywood y colores de Hindu
+* Carla: Investigacion sobre API 
+* Yolanda: Avances del flujo de ventanas
+* Yasmin:Testeo a cierto grupo de personas para filtrar información
+## dia dos:
+* Claudia: Diseño de las ventanas con los colores con sus significados
+* Carla: Avances sobre jalar informacion de la api
+* Yolanda:Maqueteo de las ventanas
+* Yasmin: An+vances del JSON
+## dia tres:
+* Claudia:Diseño del logo
+* Carla:funcionabilidad
+* Yolanda:arreglos de maqueteo y avances del readme
+* Yasmin:
+## dia cuatro:
+* Claudia:
+* Carla:
+* Yolanda:
+* Yasmin:
 
 Realizado por Squad Powerpuff -Girls.
+## miembros
+* Claudia:
+* Carla:
+* Yolanda:
+* Yasmin:
