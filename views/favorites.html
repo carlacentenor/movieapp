@@ -6,29 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Planet Bollywood</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
 
-<nav class="#f9fbe7 lime lighten-5">
+<body class="#f9fbe7 lime lighten-5">
+  <nav class="#f9fbe7 lime lighten-5">
     <div class="nav-wrapper">
-      
-     <img class="logo" href="home.html"  src="../assets/images/logo_BP2.png">
+<ul class="left">
+  <img class="circle img-user wid-img hide-on-med-and-down" src="">
+</ul>
+      <img class="logo brand-logo logo center" src="../assets/images/logo_BP2.png">
       <a href="#" data-activates="slide-out" class="button-collapse">
         <i class="material-icons">menu</i>
       </a>
       <ul class="right hide-on-med-and-down">
         <li>
-          <input class="in-block" type="text" id="text-search">
+          <input class="in-block" type="text" id="text-search2" value="">
         </li>
-        <li>
-          <a class="btn-search">
-            <i class="material-icons">search</i>
+        <li class="">
+          <a>
+            <i class="material-icons" id="search1">search</i>
           </a>
         </li>
         <li>
-          <a href="sass.html">
+          <a href="https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news">
             <i class="material-icons">library_books</i>
           </a>
         </li>
@@ -39,15 +43,15 @@
         </li>
         <ul id="dropdown1" class="dropdown-content">
           <li>
-            <a href="#!">one</a>
+            <a href="#!">Home</a>
           </li>
           <li>
-            <a href="#!">two</a>
+            <a href="#!">My Favorites</a>
           </li>
-          <li class="divider"></li>
           <li>
-            <a href="#!">three</a>
+            <a href="#!">Log Out</a>
           </li>
+          
         </ul>
 
       </ul>
@@ -69,7 +73,7 @@
           </div>
         </li>
         <li>
-          <a href="home.html">
+          <a href="#!">
             <i class="material-icons">home</i>Home</a>
         </li>
         <li>
@@ -101,28 +105,53 @@
     </div>
   </nav>
 
-<body class="">
-  
 
 
+  <h1 class="center title-modal">My Favorites Movies</h1>
+  <!-- Contenedor de películas-->
+  <div class="movie-favorite container-movies">
 
-<h1>My Favorites Movies</h1>
-<!-- Contenedor de películas-->
-<div class="movie-favorite container-movies">
 
+  </div>
 
 </div>
- 
+<footer class="page-footer purple" id="bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Follow us</h5>
+          <ul>
+            <li>
+              <i class="icon-facebook"><span class="footer-letter">acebook</span></i>
+            </li>
+            <li>
+              <i class="icon-google"><span class="footer-letter">oogle</span></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Download our app!</h5>
+          <div>
+            <img src="../assets/images/playstore.png" alt="google play" class="img-responsive" width="190">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2018 Copyright 
+      <a class="grey-text text-lighten-4 right" href="#!">Made by: PowerPuff Girls</a>
+      </div>
+    </div>
+  </footer>
 
 
 
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script src="../vendors/materialize/js/materialize.min.js"></script>
-  <script src="../js/data.js"></script>
 
-
-  <script src="../js/register.js"></script>
+  <script src="../js/app.js"></script>
   <script src="../js/search.js"></script>
   <script src="../js/show.js"></script>
   <script src="../js/favorite.js"></script>
