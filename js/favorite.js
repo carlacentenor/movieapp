@@ -14,4 +14,15 @@ $(document).ready(function() {
   }, function(objetoError) {
     console.log('Error de lectura:' + objetoError.code);
   });
+  /* funcionabilidad del boton input */
+
+  $('.btn-search1').click(function() {
+    var searchOn = $('#text-search2').val();
+    for (var i = 0; i < movies.length; i++) {
+      if (searchOn === movies[i].title) {
+        localStorage.movie = movies[i].title;
+        window.location.href = 'cuarta.html';
+      } 
+    } 
+  });
 });

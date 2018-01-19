@@ -28,8 +28,8 @@ Investigando en otras páginas web, descubrimos que hay muy pocos portales espec
 
 ### 1.- Primer boceto 
 ## Versión desktop :
-![Con titulo](assets/docs/vista1.jpg "titulo")
 
+![Con titulo](assets/docs/vista2.jpg "titulo")
 
 ## Versión mobile :
 ![Con titulo](assets/docs/mobile1.jpg "titulo")
@@ -111,30 +111,29 @@ Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
 
 ### Versión Mobile:
 
-![Con titulo](assets/docs/vista1-mobile.jpg "titulo")
+![Con titulo](assets/docs/vista2-mobile.jpg "titulo")
 
 
 ### Versión Desktop:
 
 ![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
-
-# Organización
-## Claudia encargo de la 
-## Carla se encargo de la funcionabilidad compartida Yasmin.
-## Yolanda se encargo del flujo de ventanas y readme.
-## Siempre apoyandonos constantemente
-
-# dia uno
-* Claudia : Busqueda de información sobre el tema de Bollywoond tema de colores y tema de diseño
-* Carla : Busqueda de información de la API.
-* Yolanda : Flujo de ventanas.
-* Yasmin :  Testeo con amigos y personas para filtrar información.
-# dia dos
-* Claudia : Creación de las colores predominantes de nuestras paginas.
-* Carla : Funcionabilidad de firebase.
-* Yolanda : Maquetado movile 
-* Yasmin : Maqueteado desktop
-# dia tres
+# Organizacion
+## dia uno: 
+* Claudia: Investigación sobre Bollywood y colores de Hindu
+* Carla: Investigacion sobre API 
+* Yolanda: Avances del flujo de ventanas
+* Yasmin:Testeo a cierto grupo de personas para filtrar información
+## dia dos:
+* Claudia: Diseño de las ventanas con los colores con sus significados
+* Carla: Avances sobre jalar informacion de la api
+* Yolanda:Maqueteo de las ventanas
+* Yasmin: An+vances del JSON
+## dia tres:
+* Claudia:Diseño del logo
+* Carla:funcionabilidad
+* Yolanda:arreglos de maqueteo y avances del readme
+* Yasmin:
+## dia cuatro:
 * Claudia:
 * Carla:
 * Yolanda:
