@@ -165,5 +165,79 @@ var movies = [{
   'trailer': 'https://www.youtube.com/watch?v=fevmvfW72_8',
   'stars': '5',
 },
+{
+  'title': 'kabhi alvida naa kehna',
+  'genre': 'Romance',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'vanaja',
+  'genre': 'Drama',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'desi kattey',
+  'genre': 'Action',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'shivaay',
+  'genre': 'Action',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+
+{
+  'title': 'baghban',
+  'genre': 'Drama',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'Half Girlfriend',
+  'genre': 'Romance',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+
+{
+  'title': 'rab ne bana di jodi',
+  'genre': 'Musical',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'phillauri',
+  'genre': 'Estrenos',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'zindagi na milegi dobara',
+  'genre': 'Comedy',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'jab harry met sejal',
+  'genre': 'Estrenos',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'mujhse dosti karoge!',
+  'genre': 'Musical',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
+{
+  'title': 'chennai express',
+  'genre': 'Comedy',
+  'trailer': 'https://www.youtube.com/watch?v=8iv3ksZs0hk',
+  'stars': '3',
+},
 
 ];
