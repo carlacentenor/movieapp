@@ -250,9 +250,10 @@ $(document).ready(function() {
       var userPic = $('<img/>');
       var userName = $('<p/>');
       msg.text(inputMsg.val());
-      userBox.addClass('border-sha');
+      userBox.addClass('user-box');
       userPic.addClass('circle img-user user-login in-block');
       userName.addClass('user-name in-block');
+      userName.text($('.user-name').text());
       msg.appendTo(userBox);
       userPic.appendTo(userInfo);
       userName.appendTo(userInfo);
@@ -262,11 +263,4 @@ $(document).ready(function() {
       inputMsg.val('');
     }
   });
-
-  $(document).ready(function() {
-    $('.tooltipped').tooltip({delay: 50});
-  });
-
-  // Initialize collapse button
-  $('.user-side').sideNav();
 });

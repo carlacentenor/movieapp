@@ -166,6 +166,13 @@ footer p {
   height: 100vh;
 }
 
+.user-box {
+  margin-top: 1em;
+  background-color: #e1bee7;
+  border-radius: 14px;
+  padding: 1em;
+}
+
 
 /* Vista home */
 

@@ -34,7 +34,7 @@
           </a>
         </li>
         <li>
-          <a href="https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news">
+          <a href="https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news" target="_blank">
             <i class="material-icons">library_books</i>
           </a>
         </li>
@@ -103,14 +103,14 @@
 
       <div class="col s12 m7">
         <div class="info-small  ">
-          <h2 class="title-movie"></h2>
+          <h1 class="title-movie title-modal"></h1>
           <p class="year"></p>
           <p class="star"></p>
           <p class="time"></p>
           <p class="genre-movie"></p>
         </div>
         <div class="info-movie">
-          <h5>Synopsis</h5>
+          <h5>Synopsis:</h5>
           <div class="sinopsis-movie"></div>
 
 
@@ -118,13 +118,14 @@
 
         </div>
 
-        <h5>Actors :</h5>
+        <h5>Actors:</h5>
         <p class="actors-movie"></p>
 
 
-        <button class="btn btn-favorite #ff6f00 amber darken-4">
-          <i class="material-icons">favorite</i>add</button>
-      </div>
+        <button class="btn btn-favorite #ff6f00 amber darken-4 hoverable" onclick="Materialize.toast('Added to your list!', 4000)">
+          <i class="material-icons">favorite</i>add
+        </button>
+      </div> 
     </div>
     <div class="comment ">
       <h5 class="title-modal">Share your opinion</h5>
