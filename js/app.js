@@ -207,7 +207,7 @@ $(document).ready(function() {
         
       }).then(
         user => {
-          console.log(user.uid);
+         
           $(location).attr('href', 'views/home.html');
         });
     }).catch(function(error) {

@@ -27,6 +27,7 @@ $(document).ready(function() {
               $('.user-name').text(id.name);
               $('.email-user').text(id.name);
               $('.img-user').attr('src', id.profilePhoto);
+              localStorage.uid = id.uid;
             }
           }
         }, function(objetoError) {
