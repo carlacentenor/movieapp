@@ -1,4 +1,3 @@
-
 *{
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
@@ -71,19 +70,12 @@ nav{
   text-align: center;
 }
 
-nav{
-  height: 9.5rem;
-  color: black;
-}
-
 .logo {
   height: 9.5rem;
   width: 17rem; 
  }
 
 .opacity{
-  color: white;
-  background: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: inherit;
 }
@@ -96,14 +88,9 @@ nav{
   color: black;
   text-transform: capitalize;
 }
-
-.border-rad10{
-  border-radius: 10px;
-}
-
 .container-movies{
-  display: flex;
-  flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
 }
 
 .contain {
@@ -124,9 +111,9 @@ nav{
 
 .bg-principal{
   background-image: url('../assets/images/portada3.jpg');
-background-position: bottom center;
-background-size: cover;
-height: 75vh;
+  background-position: bottom center;
+  background-size: cover;
+  height: 75vh;
 }
 
 .line::after , .line::before {
@@ -141,9 +128,10 @@ height: 75vh;
   background-image: url('../assets/images/fondo2.jpeg');
 }
 
-.title-modal {
-  font-family: 'Supermercado One', cursive;
+.title-modal{
+  font-family: 'Supermercado One', cursive !important;
   font-size: 35px;
+  padding-left: 1rem;
 }
 
 .pd1{
@@ -173,6 +161,11 @@ footer p {
   background: rgba(15, 15, 15, 0.4); 
   height: 100vh;
 }
+ /* Vista home */
+
+.cream-nav {
+  height: 9.5rem; 
+}
 
 .generos img {
     width: 20%;
@@ -187,5 +180,5 @@ footer p {
 }
 
 nav i {
-  color: black;
+  color: purple;
 }

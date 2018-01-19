@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $('.modal').modal();
   var config = {
     apiKey: 'AIzaSyCU1vcZK3J7iQKGNuz5mEhh1ptPxY3U4yo',
