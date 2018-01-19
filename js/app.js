@@ -207,7 +207,7 @@ $(document).ready(function() {
   
       }).then(
         user => {
-          localStorage.uid = user.uid;
+          //localStorage.uid = user.uid;
           $(location).attr('href', 'views/home.html');
         });
     }).catch(function(error) {
