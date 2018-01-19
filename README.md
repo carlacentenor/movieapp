@@ -6,19 +6,19 @@
 ## Planificación 
 El primer día realizamos Brainstorming para obtener la mayor cantidad de ideas posibles.
 * Elegimos al usuario que es fan de las películas de Bollywood.
-* Para ello elaboraremos un portal web de películas de Bollywood con versión mobile y desktop, que tenga contenido de calidad sobre las películas y que le brinde la posibilidad de buscar facil y rapidamente las peliculas segun el tipo de gustos que tenga.
+* Para ello elaboraremos un portal web de películas de Bollywood con versión mobile y desktop, que tenga contenido de calidad sobre las películas y que le brinde la posibilidad de buscar fácil y rápidamente las películas según el tipo de gustos que tenga.
 
 ![Con titulo](assets/docs/idea1.jpg "titulo")
 
 ## ¿Por qué escogimos el tema de Bollywood ?
-Investigando en otras páginas web, descubrimos que hay muy pocos portales específicos sobre este tipo de películas y su público es muy grande. Es díficil buscar una película de Bollywood por Internet sin que se descargue virus y con contenido de calidad, mayormente los usuarios compran las películas en DVD´s y no quedan del todo satisfechos.
+Investigando en otras páginas web, descubrimos que hay muy pocos portales específicos sobre este tipo de películas y su público es muy grande. Es díficil buscar una película de Bollywood por Internet sin que se descargue virus y con contenido de calidad, mayormente los usuarios compran las películas en DVD's y no quedan del todo satisfechos.
 
 ## Brainstorming de Ideas del portal
 * Durante esta etapa comenzaron a fluir ideas sobre lo que va a contener el producto, y las fuimos pegando aleatoriamente.
-* Luego fuimos priorizando que elementos si son  factibles realizar en el tiempo que se nos brindo.
+* Luego fuimos priorizando que elementos sí son  factibles realizar en el tiempo que se nos brindo.
 * También nos sirvio para establecer que tenemos dos tipos de usuarios:
-  * Fanaticos de Bollywood
-  * Usuario que sólo entra por recomendación 
+  * Fanáticos de Bollywood
+  * Usuario que sólo entra por recomendación.
 
 ![Con titulo](assets/docs/idea3.jpg "titulo")
 ![Con titulo](assets/docs/idea4.jpg "titulo")
@@ -27,17 +27,17 @@ Investigando en otras páginas web, descubrimos que hay muy pocos portales espec
 ## Sketch
 
 ### 1.- Primer boceto 
-## Versión desktop :
+## Versión desktop:
 
 ![Con titulo](assets/docs/vista2.jpg "titulo")
 
-## Versión mobile :
+## Versión mobile:
 ![Con titulo](assets/docs/mobile1.jpg "titulo")
 
 
-## Eleccion del nombre del Portal y Diseño del Imagotipo:
+## Elección del nombre del Portal y Diseño del Imagotipo:
 
-Elegimos "Bollywood Planet", por el mismo hecho que nuestro público objetivo son los fanáticos de Bollywood y Planet, porque somos mas que un portal web, somos una comunidad internacional de aficionados a Bollywood y al cine hindú que no solo ofrecemos peliculas de calidad, si no también contenidos extra como los musicales que son muy representativos de Bollywood, noticias, eventos y mucho más. 
+Elegimos "Bollywood Planet", por el hecho de que nuestro público objetivo son los fanáticos de Bollywood y Planet, porque somos más que un portal web, somos una comunidad internacional de aficionados a Bollywood y al cine hindú que no solo ofrecemos peliculas de calidad, si no también contenidos extra como los musicales que son muy representativos de Bollywood, noticias, eventos y mucho más. 
 
 ![Logo](assets/images/logo_BP.png "titulo")
 
@@ -84,28 +84,28 @@ Para validar nuestras ideas referentes al diseño del portal y del logo, realiza
 
 #### Usuario 1 : Adrian Elias, 22 años, estudiante.
 
-1. ¿Usarias la plataforma para ver tu siguiente película hindu?
+1. ¿Usarias la plataforma para ver tu siguiente película hindú?
 
 Si, es bonita, simple. Y el plus de ver los musicales y escuchar las canciones me parece genial.
 
 2. ¿La recomendarias?
-Si
+Si.
 
-3. ¿Que sugieres para mejorar tu experiencia en nuestro portal?
-Que tenga variedad de géneros, que el tiempo de carga sea corto y no redireccione a otras paginas de publicidad, que se pueda recordar cuentas y que haya opción de ver la película en pantalla completa.
+3. ¿Qué sugieres para mejorar tu experiencia en nuestro portal?
+Que tenga variedad de géneros, que el tiempo de carga sea corto y no redireccione a otras páginas de publicidad, que se pueda recordar cuentas y que haya opción de ver la película en pantalla completa.
 
 #### Usuario 2 : Juan Llontop, 30, trabajador independiente.
 
-1. ¿Que opinas del logo de la marca (imagotipo)?
-Es llamativo, me gustan los colores ya que pienso en algo cálido, me produce una sensacion de felicidad y bienestar, y el morado curiosidad.
+1. ¿Qué opinas del logo de la marca (imagotipo)?
+Es llamativo, me gustan los colores ya que pienso en algo cálido, me produce una sensación de felicidad y bienestar, y el morado curiosidad.
 
-2. ¿Que piensas cuando te digo Bollywood Planet?
+2. ¿Qué piensas cuándo te digo Bollywood Planet?
 Que es una marca acerca de todo lo referido a Bollywood.
 
 #### Usuario 3 : Mariela Garcia , 27, ingeniera ambiental
 
-1. ¿Que opinas del logo de la marca (imagotipo)?
-Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
+1. ¿Qué opinas del logo de la marca (imagotipo)?
+Me gusta la combinación, tiene iluminación y el mandala es lindo.
 
 ## Sketch Version 2: 
 
@@ -116,21 +116,22 @@ Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
 ### Versión Desktop:
 
 ![Con titulo](assets/docs/vista1-desktop.jpg "titulo")
+
 # Organizacion
 ## dia uno: 
 * Claudia: Investigación sobre Bollywood y colores de Hindu
 * Carla: Investigacion sobre API 
 * Yolanda: Avances del flujo de ventanas
-* Yasmin:Testeo a cierto grupo de personas para filtrar información.
+* Yasmin: Testeo a cierto grupo de personas para filtrar información.
 ## dia dos:
 * Claudia: Diseño de las ventanas con los colores con sus significados
 * Carla: Avances sobre jalar informacion de la api
-* Yolanda:Maquetado de las ventanas
+* Yolanda: Maquetado de las ventanas
 * Yasmin: Data JSON.
 ## dia tres:
-* Claudia:Diseño del logo
-* Carla:funcionabilidad
-* Yolanda:arreglos de maqueteo y avances del readme
+* Claudia: Diseño del logo
+* Carla: funcionabilidad
+* Yolanda: arreglos de maqueteo y avances del readme
 * Yasmin: maquetado de vistas y funcionalidad de posteo.
 
 ## Realizado por Squad Powerpuff - Girls.
