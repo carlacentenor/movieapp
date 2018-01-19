@@ -121,32 +121,22 @@ Me gusta la combinacion, tiene iluminacion y el mandala es lindo.
 * Claudia: Investigación sobre Bollywood y colores de Hindu
 * Carla: Investigacion sobre API 
 * Yolanda: Avances del flujo de ventanas
-* Yasmin:Testeo a cierto grupo de personas para filtrar información
+* Yasmin:Testeo a cierto grupo de personas para filtrar información.
 ## dia dos:
 * Claudia: Diseño de las ventanas con los colores con sus significados
 * Carla: Avances sobre jalar informacion de la api
-* Yolanda:Maqueteo de las ventanas
-* Yasmin: An+vances del JSON
+* Yolanda:Maquetado de las ventanas
+* Yasmin: Data JSON.
 ## dia tres:
 * Claudia:Diseño del logo
 * Carla:funcionabilidad
 * Yolanda:arreglos de maqueteo y avances del readme
-* Yasmin:
-## dia cuatro:
-* Claudia:
-* Carla:
-* Yolanda:
-* Yasmin:
-# dia cuatro
-* Claudia
-* Carla
-* Yolanda
-* Yasmin
+* Yasmin: maquetado de vistas y funcionalidad de posteo.
 
 ## Realizado por Squad Powerpuff - Girls.
 ## Miembros : 
 * Centeno Ramos, Carla
 * Mattos Conislla,Yasmin
 * Zarate Cordova,Claudia
-* Ventura Chavez, Yolanda
+* Ventura Chavez, Yolanda.
 
