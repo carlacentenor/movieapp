@@ -21,7 +21,7 @@ nav {
 }
 
 .logo {
-  height: 9.5rem;
+  height: 11rem;
   width: 17rem;
 }
 
@@ -54,8 +54,8 @@ nav {
 
 .phrase {
   font-size: 30px;
-  line-height: 55px;
-  padding-bottom: 20px;
+  line-height: 40px;
+  padding-top: 25px;
 }
 
 .bg-principal {

@@ -120,25 +120,28 @@ Me gusta la combinación, tiene iluminación y el mandala es lindo.
 
 # Organización:
 ## Día uno: 
-* Claudia: Investigación sobre Bollywood y colores de Hindu
-* Carla: Investigacion sobre API 
-* Yolanda: Avances del flujo de ventanas
+* Claudia: Research acerca de Bollywood (informacion y entrevistas), realizacion del sketch tanto de vista mobile como desktop.
+* Carla: Investigacion sobre API.
+* Yolanda: Avances del flujo de ventanas.
 * Yasmin: Testeo a cierto grupo de personas para filtrar información.
+
 ## Día dos:
-* Claudia: Diseño de las ventanas con los colores con sus significados
+* Claudia:Diseño del logo y de las ventanas, avance del Readme.
 * Carla: Avances sobre jalar informacion de la API.
 * Yolanda: Maquetado de las ventanas.
 * Yasmin: Data JSON con los genéros de nuestras peliculas.
+
 ## Día tres:
-* Claudia: Diseño del logo.
-* Carla: funcionabilidad.
-* Yolanda: arreglos de maqueteo y avances del readme.
-* Yasmin: maquetado de vistas y funcionalidad de posteo.
+* Claudia: Maquetado y diseño de ventanas.
+* Carla: Funcionalidad y arreglos con Firebase.
+* Yolanda: Maquetado y avances del Readme.
+* Yasmin: Maquetado de vistas y funcionalidad de posteo.
+
 ## Día cuatro:
-* Claudia: Termino del slider vista mobile.
+* Claudia: Ajustes vista mobile.
 * Carla: Arreglo problema de login de Facebook.
 * Yolanda: Termino del Readme.
-* Yazmin: agregando mas Filmes a nuestro JSON.
+* Yazmin: Agregando mas Filmes a nuestro JSON.
 
 
 ## Realizado por Squad Powerpuff - Girls.
