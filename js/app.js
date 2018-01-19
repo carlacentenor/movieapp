@@ -204,10 +204,10 @@ $(document).ready(function() {
         email: user.email,
         uid: user.uid,
         profilePhoto: user.photoURL,
-  
+        
       }).then(
         user => {
-          //localStorage.uid = user.uid;
+          console.log(user.uid);
           $(location).attr('href', 'views/home.html');
         });
     }).catch(function(error) {
