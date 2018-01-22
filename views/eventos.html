@@ -15,6 +15,15 @@
 </head>
 
 <body class="lime lighten-5">
+  <!-- Me gusta en facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&autoLogAppEvents=1&version=v2.11&appId=431334137283244';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <nav class="#f9fbe7 lime lighten-5">
     <div class="nav-wrapper">
 <ul class="left">
@@ -121,6 +130,9 @@
             </li>
             <li>
               <i class="icon-google"><span class="footer-letter">oogle</span></i>
+            </li>
+            <li>
+                <div class="fb-like"></div>
             </li>
           </ul>
         </div>
