@@ -237,10 +237,6 @@ $(document).ready(function() {
     btn.removeClass('hide');
   });
 
-
-  
-  
-
   btn.on('click', function() {
     if (inputMsg.val() !== '') {
       var msg = $('<p/>');
