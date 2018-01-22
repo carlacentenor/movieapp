@@ -13,6 +13,14 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&autoLogAppEvents=1&version=v2.11&appId=431334137283244';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
   <!-- desktop -->
   <nav class="lime lighten-5">
     <div class="nav-wrapper cream-nav">
@@ -186,6 +194,9 @@
               <i class="icon-facebook">
                 <span class="footer-letter">acebook</span>
               </i>
+            </li>
+            <li>
+                <div class="fb-like"></div>
             </li>
             <li>
               <i class="icon-google">
