@@ -85,6 +85,7 @@ $(document).ready(function() {
   });
   /** funcionabilidad del input de la ventana home y tercera ? */
   $('.btn-search1').click(function() {
+    $("#text-search2").toggle();
     var searchOn = $('#text-search2').val().toLowerCase();
     for (var i = 0; i < movies.length; i++) {
       if (searchOn === movies[i].title) {
