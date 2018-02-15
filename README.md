@@ -12,7 +12,6 @@ El primer día realizamos Brainstorming para obtener la mayor cantidad de ideas 
 * Elegimos al usuario que es fan de las películas de Bollywood.
 * Para ello elaboraremos un portal web de películas de Bollywood con versión mobile y desktop, que tenga contenido de calidad sobre las películas y que le brinde la posibilidad de buscar fácil y rápidamente las películas según el tipo de gustos que tenga.
 
-![Con titulo](assets/docs/idea1.jpg "titulo")
 
 ## ¿Por qué escogimos el tema de Bollywood ?
 Investigando en otras páginas web, descubrimos que hay muy pocos portales específicos sobre este tipo de películas y su público es muy grande. Es díficil buscar una película de Bollywood por Internet sin que se descargue virus y con contenido de calidad, mayormente los usuarios compran las películas en DVD's y no quedan del todo satisfechos.
@@ -24,16 +23,6 @@ Investigando en otras páginas web, descubrimos que hay muy pocos portales espec
   * Fanáticos de Bollywood
   * Usuario que sólo entra por recomendación.
 ![Con titulo](assets/docs/idea4.jpg "titulo")
-## Sketch
-
-### 1.- Primer boceto 
-## Versión desktop:
-
-![Con titulo](assets/docs/vista2.jpg "titulo")
-
-## Versión mobile:
-![Con titulo](assets/docs/mobile6.jpg "titulo")
-
 
 ## Elección del nombre del Portal y Diseño del Imagotipo:
 
