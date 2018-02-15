@@ -1,10 +1,12 @@
-# Reto Hackaton: "Bollywood Planet"
+# Bollywood Planet
 ---
+Bollywood Planet es una página web responsive que te permite buscar información sobre las películas Hindú . Asimismo, te permite registrarte y crear una lista de películas favoritas.
+![Con titulo](https://user-images.githubusercontent.com/32285482/36282453-3db5d008-126f-11e8-8e8d-885772d1c932.png)
 
-## Objetivo
+### Desarrollado para [Laboratoria](http://laboratoria.la) 
 
-Crear un portal de películas inspirado en Bollywood, teniendo como principal función el filtro por géneros.
 
+----
 ## Planificación 
 El primer día realizamos Brainstorming para obtener la mayor cantidad de ideas posibles.
 * Elegimos al usuario que es fan de las películas de Bollywood.
