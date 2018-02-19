@@ -56,41 +56,41 @@ $(document).ready(function() {
   genreAction.on('click', function() {
     selectionGenre = 'Action';
     localStorage.genre = selectionGenre;
-    window.location.href = 'tercera.html';
+    window.location.href = 'genre.html';
   });
   genreRomance.on('click', function() {
     selectionGenre = 'Romance';
     localStorage.genre = selectionGenre;
-    window.location.href = 'tercera.html';
+    window.location.href = 'genre.html';
   });
   genreDrama.on('click', function() {
     selectionGenre = 'Drama';
     localStorage.genre = selectionGenre;
-    window.location.href = 'tercera.html';
+    window.location.href = 'genre.html';
   });
   genreMusical.on('click', function() {
     selectionGenre = 'Musical';
     localStorage.genre = selectionGenre;
-    window.location.href = 'tercera.html';
+    window.location.href = 'genre.html';
   });
   genreComedy.on('click', function() {
     selectionGenre = 'Comedy';
     localStorage.genre = selectionGenre;
-    window.location.href = 'tercera.html';
+    window.location.href = 'genre.html';
   });
   genreEstrenos.on('click', function() {
     selectionGenre = 'Estrenos';
     localStorage.genre = selectionGenre;
-    window.location.href = 'tercera.html';
+    window.location.href = 'genre.html';
   });
-  /** funcionabilidad del input de la ventana home y tercera ? */
+  /** funcionabilidad del input de la ventana home y genre ? */
   $('.btn-search1').click(function() {
     $("#text-search2").toggle();
     var searchOn = $('#text-search2').val().toLowerCase();
     for (var i = 0; i < movies.length; i++) {
       if (searchOn === movies[i].title) {
         localStorage.movie = movies[i].title;
-        window.location.href = 'cuarta.html';
+        window.location.href = 'infomovie.html';
       } 
     } 
   });

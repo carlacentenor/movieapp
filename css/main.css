@@ -183,6 +183,11 @@ footer p {
   height: 30%;
 }
 
+.img-size{
+  width: 200px;
+  height: 300px;
+}
+
 .wid-img {
   width: 4em;
   height: 4em;
